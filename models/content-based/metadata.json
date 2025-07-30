@@ -1,0 +1,41 @@
+{
+  "model_info": {
+    "type": "content_based_filtering",
+    "algorithm": "cosine_similarity_feature_matching",
+    "features_used": 126,
+    "training_date": "2025-07-30T06:55:30.988524"
+  },
+  "data_statistics": {
+    "n_products": 1042,
+    "n_users_with_profiles": 10000,
+    "n_features": 126,
+    "feature_breakdown": {
+      "categories": 6,
+      "brands": 10,
+      "price_features": 5,
+      "rating_features": 5,
+      "text_features": 100
+    }
+  },
+  "performance_metrics": {
+    "recommendation_coverage": 0.01,
+    "category_diversity": 1.0,
+    "avg_similarity_score": 0.7985007162707645,
+    "cold_start_handling": true
+  },
+  "business_applications": {
+    "use_cases": [
+      "Product similarity recommendations",
+      "User preference-based suggestions",
+      "Category-specific recommendations",
+      "Cold start user handling",
+      "Content discovery and exploration"
+    ],
+    "advantages": [
+      "No cold start problem for products",
+      "Explainable recommendations",
+      "Diverse recommendations across categories",
+      "Works for new users immediately"
+    ]
+  }
+}
