@@ -1,0 +1,1043 @@
+product_id,name,category,brand,price,rating,num_reviews,description,in_stock
+P0001,Apple Smartphone 328,Smartphones,Apple,225.01,4.4,389,"Smartphone with 5G, Face ID",True
+P0002,Xiaomi Smartphone 323,Smartphones,Xiaomi,621.92,3.9,111,"Smartphone with 5G, Face ID",False
+P0003,Samsung Smartphone 990,Smartphones,Samsung,649.21,4.1,226,"Smartphone with Dual Camera, Face ID",True
+P0004,Google Smartphone 444,Smartphones,Google,355.48,4.5,59,"Smartphone with 5G, Dual Camera",True
+P0005,Google Smartphone 847,Smartphones,Google,803.73,4.6,292,"Smartphone with 5G, Dual Camera, Wireless Charging",True
+P0006,Xiaomi Smartphone 296,Smartphones,Xiaomi,1085.45,4.3,126,"Smartphone with 5G, Face ID",True
+P0007,Apple Smartphone 489,Smartphones,Apple,1055.32,4.9,93,"Smartphone with Wireless Charging, Face ID, Dual Camera",True
+P0008,Google Smartphone 799,Smartphones,Google,409.51,4.1,383,"Smartphone with Dual Camera, Face ID",True
+P0009,Samsung Smartphone 755,Smartphones,Samsung,662.26,4.1,127,"Smartphone with Face ID, 5G",True
+P0010,Google Smartphone 680,Smartphones,Google,601.16,3.9,212,"Smartphone with Dual Camera, Face ID, Wireless Charging",False
+P0011,Samsung Smartphone 674,Smartphones,Samsung,464.88,4.0,195,"Smartphone with Wireless Charging, Face ID, Dual Camera",True
+P0012,Samsung Smartphone 148,Smartphones,Samsung,709.53,4.2,91,"Smartphone with Dual Camera, Face ID",False
+P0013,Xiaomi Smartphone 579,Smartphones,Xiaomi,263.53,4.1,359,"Smartphone with 5G, Face ID, Wireless Charging",True
+P0014,Google Smartphone 564,Smartphones,Google,311.55,4.2,400,"Smartphone with Face ID, Wireless Charging",True
+P0015,Xiaomi Smartphone 405,Smartphones,Xiaomi,1112.63,4.6,400,"Smartphone with Dual Camera, Wireless Charging",True
+P0016,Xiaomi Smartphone 100,Smartphones,Xiaomi,1153.5,4.7,485,"Smartphone with Wireless Charging, 5G, Face ID",True
+P0017,Google Smartphone 680,Smartphones,Google,439.45,4.0,258,"Smartphone with 5G, Face ID",True
+P0018,Xiaomi Smartphone 586,Smartphones,Xiaomi,965.83,4.2,456,"Smartphone with Face ID, Wireless Charging",False
+P0019,Samsung Smartphone 806,Smartphones,Samsung,1128.91,4.6,353,"Smartphone with Face ID, Dual Camera",True
+P0020,OnePlus Smartphone 353,Smartphones,OnePlus,1099.61,4.4,20,"Smartphone with 5G, Dual Camera",True
+P0021,Xiaomi Smartphone 746,Smartphones,Xiaomi,420.22,3.9,473,"Smartphone with Dual Camera, 5G",True
+P0022,Google Smartphone 785,Smartphones,Google,270.86,4.0,380,"Smartphone with Dual Camera, Face ID, 5G",False
+P0023,Samsung Smartphone 294,Smartphones,Samsung,984.62,4.6,230,"Smartphone with 5G, Face ID",True
+P0024,OnePlus Smartphone 155,Smartphones,OnePlus,611.1,4.4,382,"Smartphone with 5G, Dual Camera",True
+P0025,Apple Smartphone 559,Smartphones,Apple,448.66,4.3,152,"Smartphone with Wireless Charging, 5G",False
+P0026,Samsung Smartphone 927,Smartphones,Samsung,1074.49,4.1,286,"Smartphone with 5G, Face ID",True
+P0027,Apple Smartphone 270,Smartphones,Apple,1126.37,4.9,452,"Smartphone with Wireless Charging, Dual Camera, 5G",False
+P0028,Apple Smartphone 499,Smartphones,Apple,364.64,4.2,366,"Smartphone with Wireless Charging, Dual Camera, Face ID",False
+P0029,Samsung Smartphone 159,Smartphones,Samsung,389.9,4.0,35,"Smartphone with Face ID, 5G",False
+P0030,Xiaomi Smartphone 158,Smartphones,Xiaomi,1119.39,4.4,314,"Smartphone with Dual Camera, 5G",True
+P0031,Samsung Smartphone 683,Smartphones,Samsung,603.78,4.5,51,"Smartphone with 5G, Face ID",False
+P0032,Xiaomi Smartphone 367,Smartphones,Xiaomi,765.23,4.3,145,"Smartphone with Face ID, 5G",False
+P0033,Samsung Smartphone 423,Smartphones,Samsung,871.69,4.3,328,"Smartphone with 5G, Dual Camera",True
+P0034,Apple Smartphone 235,Smartphones,Apple,737.63,4.7,155,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0035,OnePlus Smartphone 726,Smartphones,OnePlus,1033.74,4.5,63,"Smartphone with Face ID, Wireless Charging",True
+P0036,Google Smartphone 666,Smartphones,Google,315.43,4.0,319,"Smartphone with Face ID, Dual Camera",True
+P0037,Google Smartphone 370,Smartphones,Google,403.6,4.3,334,"Smartphone with Face ID, 5G, Wireless Charging",False
+P0038,Google Smartphone 233,Smartphones,Google,244.09,4.1,292,"Smartphone with Dual Camera, Face ID, Wireless Charging",False
+P0039,Xiaomi Smartphone 807,Smartphones,Xiaomi,209.67,3.9,308,"Smartphone with 5G, Dual Camera",True
+P0040,OnePlus Smartphone 915,Smartphones,OnePlus,327.45,4.1,359,"Smartphone with Face ID, 5G",True
+P0041,Apple Smartphone 995,Smartphones,Apple,553.68,4.5,419,"Smartphone with Dual Camera, 5G, Face ID",True
+P0042,OnePlus Smartphone 440,Smartphones,OnePlus,224.79,4.3,413,"Smartphone with Dual Camera, Wireless Charging, 5G",True
+P0043,OnePlus Smartphone 327,Smartphones,OnePlus,1072.17,4.6,166,"Smartphone with Wireless Charging, Dual Camera",True
+P0044,Samsung Smartphone 436,Smartphones,Samsung,223.66,4.0,338,"Smartphone with 5G, Dual Camera, Face ID",False
+P0045,Xiaomi Smartphone 998,Smartphones,Xiaomi,531.15,3.9,29,"Smartphone with Dual Camera, Face ID, Wireless Charging",True
+P0046,Xiaomi Smartphone 421,Smartphones,Xiaomi,634.56,4.3,140,"Smartphone with 5G, Dual Camera, Wireless Charging",True
+P0047,OnePlus Smartphone 651,Smartphones,OnePlus,201.69,4.5,45,"Smartphone with Face ID, Dual Camera",True
+P0048,Xiaomi Smartphone 837,Smartphones,Xiaomi,513.92,4.4,177,"Smartphone with Face ID, Wireless Charging, Dual Camera",False
+P0049,Google Smartphone 780,Smartphones,Google,754.41,4.2,217,"Smartphone with Dual Camera, Face ID, Wireless Charging",True
+P0050,Google Smartphone 693,Smartphones,Google,486.91,4.2,355,"Smartphone with Wireless Charging, Dual Camera, Face ID",True
+P0051,Xiaomi Smartphone 915,Smartphones,Xiaomi,673.19,4.4,273,"Smartphone with 5G, Dual Camera",True
+P0052,Apple Smartphone 788,Smartphones,Apple,1018.42,4.9,22,"Smartphone with Dual Camera, 5G, Face ID",True
+P0053,Samsung Smartphone 886,Smartphones,Samsung,1183.94,4.5,463,"Smartphone with Wireless Charging, Dual Camera",True
+P0054,OnePlus Smartphone 771,Smartphones,OnePlus,694.38,4.0,122,"Smartphone with 5G, Dual Camera",True
+P0055,Xiaomi Smartphone 968,Smartphones,Xiaomi,664.55,4.2,420,"Smartphone with Wireless Charging, 5G",False
+P0056,Xiaomi Smartphone 873,Smartphones,Xiaomi,1187.89,4.5,469,"Smartphone with Wireless Charging, Face ID, Dual Camera",True
+P0057,OnePlus Smartphone 960,Smartphones,OnePlus,650.07,4.4,150,"Smartphone with Wireless Charging, Face ID, 5G",False
+P0058,Apple Smartphone 443,Smartphones,Apple,913.54,4.5,128,"Smartphone with 5G, Wireless Charging, Face ID",False
+P0059,Samsung Smartphone 517,Smartphones,Samsung,906.42,4.1,115,"Smartphone with Wireless Charging, Dual Camera, 5G",False
+P0060,OnePlus Smartphone 812,Smartphones,OnePlus,1104.84,4.5,13,"Smartphone with Wireless Charging, Dual Camera",True
+P0061,Google Smartphone 955,Smartphones,Google,953.48,4.6,149,"Smartphone with Dual Camera, Wireless Charging, 5G",False
+P0062,OnePlus Smartphone 795,Smartphones,OnePlus,229.02,4.1,328,"Smartphone with Dual Camera, Wireless Charging, 5G",True
+P0063,OnePlus Smartphone 185,Smartphones,OnePlus,791.89,4.5,35,"Smartphone with Dual Camera, Wireless Charging, 5G",True
+P0064,OnePlus Smartphone 445,Smartphones,OnePlus,527.35,4.2,437,"Smartphone with Face ID, Dual Camera, Wireless Charging",True
+P0065,OnePlus Smartphone 458,Smartphones,OnePlus,219.38,4.2,30,"Smartphone with 5G, Face ID",True
+P0066,Samsung Smartphone 256,Smartphones,Samsung,399.36,3.9,352,"Smartphone with Dual Camera, Wireless Charging",True
+P0067,Xiaomi Smartphone 362,Smartphones,Xiaomi,1147.76,4.4,408,"Smartphone with Dual Camera, Face ID, 5G",True
+P0068,Google Smartphone 419,Smartphones,Google,308.1,3.9,48,"Smartphone with Wireless Charging, Face ID, 5G",True
+P0069,Apple Smartphone 800,Smartphones,Apple,897.19,4.6,282,"Smartphone with 5G, Dual Camera",False
+P0070,Google Smartphone 112,Smartphones,Google,268.96,4.3,195,"Smartphone with Wireless Charging, 5G, Dual Camera",False
+P0071,Samsung Smartphone 766,Smartphones,Samsung,635.49,4.3,432,"Smartphone with Wireless Charging, Dual Camera, Face ID",True
+P0072,Google Smartphone 188,Smartphones,Google,1051.71,4.6,301,"Smartphone with Wireless Charging, 5G, Dual Camera",False
+P0073,Google Smartphone 286,Smartphones,Google,228.7,4.4,184,"Smartphone with Dual Camera, Wireless Charging, Face ID",True
+P0074,Xiaomi Smartphone 110,Smartphones,Xiaomi,901.18,4.3,378,"Smartphone with 5G, Wireless Charging",False
+P0075,OnePlus Smartphone 587,Smartphones,OnePlus,755.18,4.2,160,"Smartphone with Wireless Charging, 5G, Face ID",True
+P0076,OnePlus Smartphone 695,Smartphones,OnePlus,891.79,4.3,227,"Smartphone with Wireless Charging, Face ID, Dual Camera",True
+P0077,Google Smartphone 357,Smartphones,Google,902.85,4.3,108,"Smartphone with 5G, Face ID",True
+P0078,Apple Smartphone 806,Smartphones,Apple,942.88,5.0,388,"Smartphone with Dual Camera, 5G",False
+P0079,Google Smartphone 637,Smartphones,Google,924.59,4.7,126,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0080,Samsung Smartphone 229,Smartphones,Samsung,502.27,4.3,367,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0081,OnePlus Smartphone 391,Smartphones,OnePlus,302.59,3.9,104,"Smartphone with Wireless Charging, Dual Camera, Face ID",True
+P0082,Google Smartphone 941,Smartphones,Google,1141.06,4.4,47,"Smartphone with Wireless Charging, Dual Camera",True
+P0083,Samsung Smartphone 411,Smartphones,Samsung,349.2,4.2,295,"Smartphone with Dual Camera, 5G",False
+P0084,Xiaomi Smartphone 894,Smartphones,Xiaomi,796.13,4.5,450,"Smartphone with Wireless Charging, Dual Camera, Face ID",False
+P0085,Google Smartphone 857,Smartphones,Google,768.63,4.1,118,"Smartphone with Dual Camera, Face ID",True
+P0086,Apple Smartphone 176,Smartphones,Apple,357.06,4.3,240,"Smartphone with 5G, Dual Camera",False
+P0087,Google Smartphone 389,Smartphones,Google,232.64,4.1,483,"Smartphone with 5G, Face ID, Wireless Charging",True
+P0088,Xiaomi Smartphone 535,Smartphones,Xiaomi,861.18,4.7,86,"Smartphone with Dual Camera, Face ID",True
+P0089,Samsung Smartphone 414,Smartphones,Samsung,271.41,4.0,362,"Smartphone with Wireless Charging, 5G, Dual Camera",True
+P0090,OnePlus Smartphone 605,Smartphones,OnePlus,1142.68,4.4,465,"Smartphone with 5G, Face ID, Wireless Charging",False
+P0091,Google Smartphone 334,Smartphones,Google,803.71,4.1,30,"Smartphone with Face ID, Wireless Charging",True
+P0092,OnePlus Smartphone 384,Smartphones,OnePlus,718.96,4.4,426,"Smartphone with Wireless Charging, Face ID",False
+P0093,Apple Smartphone 428,Smartphones,Apple,670.01,4.4,220,"Smartphone with Dual Camera, Wireless Charging",False
+P0094,Google Smartphone 878,Smartphones,Google,862.58,4.3,171,"Smartphone with Wireless Charging, 5G",True
+P0095,Google Smartphone 985,Smartphones,Google,315.92,4.4,37,"Smartphone with Wireless Charging, Dual Camera",True
+P0096,Xiaomi Smartphone 740,Smartphones,Xiaomi,561.78,4.4,291,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0097,Google Smartphone 224,Smartphones,Google,638.12,4.3,91,"Smartphone with Dual Camera, Face ID",True
+P0098,Xiaomi Smartphone 330,Smartphones,Xiaomi,213.67,4.1,341,"Smartphone with Wireless Charging, 5G",True
+P0099,OnePlus Smartphone 822,Smartphones,OnePlus,1132.65,4.3,134,"Smartphone with Wireless Charging, Dual Camera, Face ID",False
+P0100,Xiaomi Smartphone 713,Smartphones,Xiaomi,344.64,4.0,405,"Smartphone with 5G, Dual Camera",False
+P0101,Google Smartphone 940,Smartphones,Google,1134.25,4.4,162,"Smartphone with Face ID, Wireless Charging",False
+P0102,Samsung Smartphone 440,Smartphones,Samsung,646.55,4.2,367,"Smartphone with Wireless Charging, Dual Camera, 5G",True
+P0103,Xiaomi Smartphone 520,Smartphones,Xiaomi,582.97,4.4,252,"Smartphone with Face ID, Wireless Charging",False
+P0104,OnePlus Smartphone 767,Smartphones,OnePlus,1188.41,4.6,74,"Smartphone with Wireless Charging, 5G",True
+P0105,Apple Smartphone 638,Smartphones,Apple,1074.19,4.7,219,"Smartphone with 5G, Face ID, Wireless Charging",True
+P0106,Apple Smartphone 446,Smartphones,Apple,669.49,4.8,498,"Smartphone with 5G, Dual Camera, Face ID",True
+P0107,OnePlus Smartphone 170,Smartphones,OnePlus,1072.38,4.1,392,"Smartphone with Face ID, 5G",True
+P0108,OnePlus Smartphone 820,Smartphones,OnePlus,1178.34,4.6,365,"Smartphone with Wireless Charging, 5G",True
+P0109,Apple Smartphone 400,Smartphones,Apple,245.99,4.7,135,"Smartphone with Face ID, Dual Camera, 5G",False
+P0110,Xiaomi Smartphone 279,Smartphones,Xiaomi,881.8,4.2,359,"Smartphone with Wireless Charging, Face ID",True
+P0111,OnePlus Smartphone 572,Smartphones,OnePlus,1112.83,4.2,470,"Smartphone with Wireless Charging, Dual Camera, 5G",False
+P0112,Google Smartphone 552,Smartphones,Google,877.61,4.2,363,"Smartphone with Face ID, Wireless Charging, Dual Camera",True
+P0113,OnePlus Smartphone 493,Smartphones,OnePlus,1045.3,4.2,302,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0114,Xiaomi Smartphone 122,Smartphones,Xiaomi,495.87,4.3,476,"Smartphone with Face ID, 5G, Wireless Charging",False
+P0115,Google Smartphone 921,Smartphones,Google,975.74,4.2,327,"Smartphone with Dual Camera, Face ID, 5G",True
+P0116,Samsung Smartphone 761,Smartphones,Samsung,828.25,4.6,27,"Smartphone with Face ID, Dual Camera",True
+P0117,Samsung Smartphone 865,Smartphones,Samsung,290.13,4.1,412,"Smartphone with Dual Camera, 5G, Face ID",True
+P0118,Xiaomi Smartphone 268,Smartphones,Xiaomi,701.79,4.3,421,"Smartphone with Wireless Charging, Dual Camera, Face ID",True
+P0119,OnePlus Smartphone 331,Smartphones,OnePlus,1162.89,4.2,17,"Smartphone with Face ID, 5G, Dual Camera",True
+P0120,Xiaomi Smartphone 866,Smartphones,Xiaomi,323.59,4.1,65,"Smartphone with Wireless Charging, Face ID, Dual Camera",True
+P0121,OnePlus Smartphone 674,Smartphones,OnePlus,225.02,4.4,335,"Smartphone with Dual Camera, Face ID, 5G",False
+P0122,Google Smartphone 146,Smartphones,Google,849.24,4.2,69,"Smartphone with Face ID, Dual Camera",True
+P0123,Samsung Smartphone 564,Smartphones,Samsung,1087.26,4.2,463,"Smartphone with Wireless Charging, Face ID, 5G",False
+P0124,Apple Smartphone 386,Smartphones,Apple,1033.69,4.8,237,"Smartphone with Face ID, 5G",False
+P0125,Samsung Smartphone 802,Smartphones,Samsung,1055.45,4.2,151,"Smartphone with Face ID, 5G, Dual Camera",True
+P0126,Apple Smartphone 193,Smartphones,Apple,1149.01,4.9,412,"Smartphone with 5G, Wireless Charging",True
+P0127,Samsung Smartphone 310,Smartphones,Samsung,1188.82,4.6,120,"Smartphone with Dual Camera, Face ID",True
+P0128,Google Smartphone 710,Smartphones,Google,974.37,4.6,76,"Smartphone with Face ID, 5G",True
+P0129,Samsung Smartphone 234,Smartphones,Samsung,309.93,4.4,311,"Smartphone with Face ID, 5G",True
+P0130,Apple Smartphone 859,Smartphones,Apple,374.25,4.2,253,"Smartphone with 5G, Face ID, Wireless Charging",False
+P0131,Google Smartphone 615,Smartphones,Google,713.24,4.2,411,"Smartphone with 5G, Face ID",True
+P0132,OnePlus Smartphone 590,Smartphones,OnePlus,843.34,4.1,261,"Smartphone with Wireless Charging, Face ID, 5G",False
+P0133,Apple Smartphone 251,Smartphones,Apple,1099.27,4.6,329,"Smartphone with Dual Camera, Wireless Charging",True
+P0134,OnePlus Smartphone 564,Smartphones,OnePlus,1194.63,4.4,446,"Smartphone with 5G, Face ID, Wireless Charging",True
+P0135,OnePlus Smartphone 447,Smartphones,OnePlus,651.55,4.0,170,"Smartphone with Wireless Charging, Dual Camera, 5G",False
+P0136,Google Smartphone 256,Smartphones,Google,865.11,4.3,57,"Smartphone with 5G, Wireless Charging, Face ID",False
+P0137,Apple Smartphone 233,Smartphones,Apple,944.59,4.6,72,"Smartphone with Face ID, Wireless Charging",False
+P0138,Google Smartphone 533,Smartphones,Google,1073.61,4.7,169,"Smartphone with Face ID, Wireless Charging",True
+P0139,Apple Smartphone 772,Smartphones,Apple,777.92,4.5,442,"Smartphone with Dual Camera, 5G, Wireless Charging",True
+P0140,Apple Smartphone 926,Smartphones,Apple,962.61,4.7,24,"Smartphone with 5G, Face ID, Dual Camera",True
+P0141,Google Smartphone 447,Smartphones,Google,902.7,4.3,299,"Smartphone with 5G, Wireless Charging, Face ID",False
+P0142,Apple Smartphone 131,Smartphones,Apple,341.87,4.6,224,"Smartphone with Dual Camera, Wireless Charging",False
+P0143,Google Smartphone 432,Smartphones,Google,357.41,4.1,90,"Smartphone with 5G, Wireless Charging",True
+P0144,Apple Smartphone 597,Smartphones,Apple,472.1,4.6,396,"Smartphone with Wireless Charging, Dual Camera, 5G",True
+P0145,Google Smartphone 794,Smartphones,Google,629.91,4.1,212,"Smartphone with Face ID, 5G, Wireless Charging",True
+P0146,Apple Smartphone 885,Smartphones,Apple,404.42,4.8,177,"Smartphone with Face ID, Dual Camera",True
+P0147,Apple Smartphone 232,Smartphones,Apple,697.39,4.5,46,"Smartphone with Dual Camera, Face ID, Wireless Charging",False
+P0148,Apple Smartphone 179,Smartphones,Apple,636.22,4.5,373,"Smartphone with Wireless Charging, Face ID, Dual Camera",False
+P0149,Google Smartphone 432,Smartphones,Google,315.17,3.9,480,"Smartphone with Wireless Charging, Face ID",True
+P0150,Apple Smartphone 546,Smartphones,Apple,636.71,4.3,391,"Smartphone with 5G, Dual Camera, Face ID",True
+P0151,Samsung Smartphone 622,Smartphones,Samsung,533.07,4.0,189,"Smartphone with Dual Camera, Wireless Charging",True
+P0152,Samsung Smartphone 277,Smartphones,Samsung,302.8,4.1,497,"Smartphone with 5G, Wireless Charging",False
+P0153,OnePlus Smartphone 559,Smartphones,OnePlus,954.45,4.6,44,"Smartphone with Face ID, 5G, Dual Camera",False
+P0154,OnePlus Smartphone 705,Smartphones,OnePlus,831.39,4.6,47,"Smartphone with Face ID, Wireless Charging",True
+P0155,OnePlus Smartphone 951,Smartphones,OnePlus,651.91,3.9,324,"Smartphone with 5G, Face ID, Wireless Charging",False
+P0156,OnePlus Smartphone 856,Smartphones,OnePlus,780.33,4.7,343,"Smartphone with Wireless Charging, Face ID",True
+P0157,Google Smartphone 163,Smartphones,Google,805.01,4.4,268,"Smartphone with 5G, Dual Camera, Wireless Charging",True
+P0158,Apple Smartphone 549,Smartphones,Apple,447.74,4.5,479,"Smartphone with Face ID, Dual Camera",True
+P0159,OnePlus Smartphone 712,Smartphones,OnePlus,608.77,4.1,178,"Smartphone with Face ID, 5G",True
+P0160,Xiaomi Smartphone 841,Smartphones,Xiaomi,878.38,4.3,308,"Smartphone with Face ID, 5G",True
+P0161,Google Smartphone 778,Smartphones,Google,510.23,4.3,168,"Smartphone with Dual Camera, Face ID, 5G",False
+P0162,Google Smartphone 948,Smartphones,Google,1013.18,4.5,195,"Smartphone with Wireless Charging, Face ID",True
+P0163,Google Smartphone 449,Smartphones,Google,508.87,4.5,89,"Smartphone with Dual Camera, 5G, Face ID",True
+P0164,Google Smartphone 889,Smartphones,Google,1044.43,4.2,77,"Smartphone with Face ID, Wireless Charging",False
+P0165,Samsung Smartphone 889,Smartphones,Samsung,362.25,4.4,220,"Smartphone with Wireless Charging, 5G",True
+P0166,Samsung Smartphone 870,Smartphones,Samsung,1169.59,4.5,168,"Smartphone with Dual Camera, Face ID, 5G",False
+P0167,Samsung Smartphone 551,Smartphones,Samsung,567.84,4.5,92,"Smartphone with Face ID, Dual Camera, Wireless Charging",True
+P0168,Xiaomi Smartphone 756,Smartphones,Xiaomi,338.4,4.1,374,"Smartphone with Face ID, Wireless Charging, 5G",True
+P0169,Google Smartphone 560,Smartphones,Google,283.88,4.0,494,"Smartphone with Wireless Charging, 5G",True
+P0170,OnePlus Smartphone 524,Smartphones,OnePlus,1084.63,4.7,201,"Smartphone with Wireless Charging, Face ID",True
+P0171,OnePlus Smartphone 128,Smartphones,OnePlus,1194.53,4.3,415,"Smartphone with 5G, Face ID, Dual Camera",True
+P0172,Samsung Smartphone 583,Smartphones,Samsung,238.3,4.5,325,"Smartphone with Wireless Charging, Dual Camera",True
+P0173,Apple Smartphone 253,Smartphones,Apple,219.0,4.3,164,"Smartphone with 5G, Dual Camera, Wireless Charging",True
+P0174,Apple Smartphone 737,Smartphones,Apple,438.44,4.6,315,"Smartphone with 5G, Wireless Charging, Dual Camera",True
+P0175,Xiaomi Smartphone 398,Smartphones,Xiaomi,775.05,4.5,133,"Smartphone with 5G, Face ID, Dual Camera",False
+P0176,Samsung Smartphone 469,Smartphones,Samsung,864.37,4.2,457,"Smartphone with 5G, Dual Camera",False
+P0177,Apple Smartphone 359,Smartphones,Apple,835.67,5.0,186,"Smartphone with Face ID, 5G",True
+P0178,Apple Smartphone 440,Smartphones,Apple,971.5,4.8,289,"Smartphone with 5G, Dual Camera",True
+P0179,Samsung Smartphone 812,Smartphones,Samsung,1030.38,4.5,376,"Smartphone with Dual Camera, 5G, Face ID",False
+P0180,Apple Smartphone 304,Smartphones,Apple,493.44,4.2,273,"Smartphone with Face ID, Dual Camera",False
+P0181,Xiaomi Smartphone 762,Smartphones,Xiaomi,673.4,3.9,451,"Smartphone with Face ID, Dual Camera",True
+P0182,Google Smartphone 547,Smartphones,Google,473.22,4.4,105,"Smartphone with Wireless Charging, Dual Camera, Face ID",False
+P0183,OnePlus Smartphone 373,Smartphones,OnePlus,567.35,4.4,230,"Smartphone with Wireless Charging, 5G",True
+P0184,Xiaomi Smartphone 435,Smartphones,Xiaomi,493.77,4.0,95,"Smartphone with Face ID, Dual Camera, Wireless Charging",False
+P0185,Google Smartphone 461,Smartphones,Google,647.13,4.3,48,"Smartphone with Face ID, Wireless Charging, 5G",False
+P0186,Google Smartphone 263,Smartphones,Google,713.09,4.5,357,"Smartphone with Dual Camera, Face ID",False
+P0187,Apple Smartphone 760,Smartphones,Apple,326.23,4.3,319,"Smartphone with Face ID, Dual Camera, 5G",True
+P0188,OnePlus Smartphone 881,Smartphones,OnePlus,1148.82,4.3,197,"Smartphone with Dual Camera, Face ID",False
+P0189,Google Smartphone 216,Smartphones,Google,849.56,4.2,275,"Smartphone with Dual Camera, Wireless Charging",False
+P0190,Xiaomi Smartphone 820,Smartphones,Xiaomi,317.76,4.4,365,"Smartphone with Dual Camera, Face ID, Wireless Charging",False
+P0191,Apple Laptop 276,Laptops,Apple,771.46,4.3,351,"Laptop with SSD, Touchscreen, Backlit Keyboard",True
+P0192,Apple Laptop 407,Laptops,Apple,1599.99,4.7,270,"Laptop with Backlit Keyboard, Long Battery",True
+P0193,Apple Laptop 342,Laptops,Apple,2470.27,5.0,249,"Laptop with SSD, Backlit Keyboard, Touchscreen",True
+P0194,ASUS Laptop 507,Laptops,ASUS,2268.49,4.2,74,"Laptop with Long Battery, Backlit Keyboard, SSD",True
+P0195,Apple Laptop 452,Laptops,Apple,1399.95,4.7,231,"Laptop with Backlit Keyboard, SSD",True
+P0196,Apple Laptop 265,Laptops,Apple,1536.2,4.7,443,"Laptop with Backlit Keyboard, Long Battery, Touchscreen",True
+P0197,HP Laptop 381,Laptops,HP,892.6,4.6,283,"Laptop with Touchscreen, Long Battery",True
+P0198,ASUS Laptop 694,Laptops,ASUS,1781.97,4.6,329,"Laptop with Backlit Keyboard, Touchscreen",True
+P0199,ASUS Laptop 183,Laptops,ASUS,582.39,4.5,117,"Laptop with Touchscreen, Long Battery",False
+P0200,ASUS Laptop 742,Laptops,ASUS,1777.98,4.5,422,"Laptop with Touchscreen, Backlit Keyboard, SSD",False
+P0201,HP Laptop 261,Laptops,HP,1407.09,4.4,114,"Laptop with Long Battery, Backlit Keyboard, Touchscreen",True
+P0202,ASUS Laptop 426,Laptops,ASUS,787.34,4.5,273,"Laptop with Long Battery, SSD, Backlit Keyboard",True
+P0203,HP Laptop 560,Laptops,HP,983.48,4.1,35,"Laptop with Backlit Keyboard, SSD",True
+P0204,Lenovo Laptop 986,Laptops,Lenovo,2228.33,4.5,379,"Laptop with Touchscreen, Long Battery",True
+P0205,Dell Laptop 627,Laptops,Dell,2026.24,4.5,21,"Laptop with Long Battery, Backlit Keyboard, Touchscreen",True
+P0206,Lenovo Laptop 320,Laptops,Lenovo,1510.89,4.8,263,"Laptop with SSD, Long Battery, Backlit Keyboard",False
+P0207,HP Laptop 541,Laptops,HP,1573.38,4.7,197,"Laptop with Touchscreen, Long Battery",False
+P0208,HP Laptop 675,Laptops,HP,590.48,4.0,157,"Laptop with Touchscreen, Long Battery",True
+P0209,Lenovo Laptop 386,Laptops,Lenovo,1508.51,4.7,211,"Laptop with Backlit Keyboard, SSD",True
+P0210,HP Laptop 247,Laptops,HP,1615.66,4.4,30,"Laptop with Long Battery, Touchscreen",True
+P0211,Apple Laptop 585,Laptops,Apple,774.07,4.5,177,"Laptop with Backlit Keyboard, Touchscreen, SSD",True
+P0212,Dell Laptop 962,Laptops,Dell,1285.91,4.4,372,"Laptop with Touchscreen, Long Battery, Backlit Keyboard",True
+P0213,Lenovo Laptop 789,Laptops,Lenovo,2131.5,4.4,167,"Laptop with Long Battery, Touchscreen",True
+P0214,ASUS Laptop 901,Laptops,ASUS,1449.18,4.6,255,"Laptop with SSD, Touchscreen",True
+P0215,ASUS Laptop 961,Laptops,ASUS,1758.05,4.6,26,"Laptop with Backlit Keyboard, Touchscreen, SSD",True
+P0216,Dell Laptop 255,Laptops,Dell,537.87,4.2,456,"Laptop with Backlit Keyboard, Long Battery, Touchscreen",True
+P0217,Dell Laptop 778,Laptops,Dell,1537.37,4.5,245,"Laptop with Long Battery, Backlit Keyboard, SSD",True
+P0218,ASUS Laptop 838,Laptops,ASUS,1208.57,4.5,152,"Laptop with Long Battery, SSD, Touchscreen",True
+P0219,Dell Laptop 889,Laptops,Dell,2382.97,4.8,172,"Laptop with Backlit Keyboard, Touchscreen, Long Battery",False
+P0220,HP Laptop 838,Laptops,HP,1620.98,4.8,468,"Laptop with Touchscreen, SSD, Backlit Keyboard",False
+P0221,HP Laptop 397,Laptops,HP,2409.22,4.7,50,"Laptop with Touchscreen, Long Battery",True
+P0222,Lenovo Laptop 319,Laptops,Lenovo,1811.94,4.6,366,"Laptop with Touchscreen, Long Battery",True
+P0223,Dell Laptop 345,Laptops,Dell,718.45,4.4,473,"Laptop with SSD, Touchscreen",True
+P0224,Dell Laptop 834,Laptops,Dell,604.98,4.2,12,"Laptop with SSD, Touchscreen, Long Battery",True
+P0225,Lenovo Laptop 587,Laptops,Lenovo,1805.79,4.7,156,"Laptop with Backlit Keyboard, Long Battery, Touchscreen",True
+P0226,Apple Laptop 856,Laptops,Apple,1804.6,4.6,461,"Laptop with Backlit Keyboard, Long Battery",True
+P0227,Apple Laptop 607,Laptops,Apple,2494.34,4.7,14,"Laptop with Touchscreen, SSD",True
+P0228,ASUS Laptop 443,Laptops,ASUS,1705.57,4.8,465,"Laptop with Long Battery, Touchscreen, Backlit Keyboard",True
+P0229,ASUS Laptop 215,Laptops,ASUS,1436.04,4.1,341,"Laptop with Backlit Keyboard, Touchscreen, Long Battery",True
+P0230,Dell Laptop 402,Laptops,Dell,528.17,4.2,448,"Laptop with Backlit Keyboard, Touchscreen",False
+P0231,Lenovo Laptop 785,Laptops,Lenovo,1530.56,4.3,254,"Laptop with Backlit Keyboard, SSD",True
+P0232,Dell Laptop 557,Laptops,Dell,513.66,4.2,143,"Laptop with Touchscreen, Backlit Keyboard, SSD",True
+P0233,Dell Laptop 414,Laptops,Dell,624.25,4.1,267,"Laptop with Long Battery, Touchscreen",True
+P0234,Apple Laptop 476,Laptops,Apple,1777.42,5.0,254,"Laptop with Backlit Keyboard, SSD",True
+P0235,Lenovo Laptop 525,Laptops,Lenovo,1995.47,4.6,279,"Laptop with Backlit Keyboard, SSD, Touchscreen",False
+P0236,ASUS Laptop 677,Laptops,ASUS,1907.53,4.2,472,"Laptop with SSD, Touchscreen",True
+P0237,ASUS Laptop 974,Laptops,ASUS,1573.32,4.3,377,"Laptop with SSD, Touchscreen, Long Battery",False
+P0238,Apple Laptop 156,Laptops,Apple,2297.78,4.8,243,"Laptop with Backlit Keyboard, Touchscreen, Long Battery",True
+P0239,ASUS Laptop 840,Laptops,ASUS,1424.76,4.5,428,"Laptop with Long Battery, Backlit Keyboard",True
+P0240,Dell Laptop 452,Laptops,Dell,1656.62,4.2,488,"Laptop with SSD, Long Battery",False
+P0241,Apple Laptop 238,Laptops,Apple,1074.18,4.4,455,"Laptop with Touchscreen, Backlit Keyboard, Long Battery",False
+P0242,Lenovo Laptop 995,Laptops,Lenovo,660.5,4.6,101,"Laptop with Touchscreen, SSD",False
+P0243,ASUS Laptop 954,Laptops,ASUS,754.69,4.6,247,"Laptop with SSD, Backlit Keyboard",False
+P0244,ASUS Laptop 571,Laptops,ASUS,1258.55,4.1,489,"Laptop with Backlit Keyboard, Long Battery, SSD",True
+P0245,Apple Laptop 884,Laptops,Apple,2118.96,4.8,44,"Laptop with Backlit Keyboard, SSD",True
+P0246,ASUS Laptop 820,Laptops,ASUS,567.15,4.4,32,"Laptop with Backlit Keyboard, Touchscreen",False
+P0247,Lenovo Laptop 984,Laptops,Lenovo,968.68,4.1,158,"Laptop with Backlit Keyboard, Touchscreen",True
+P0248,ASUS Laptop 788,Laptops,ASUS,1137.81,4.4,348,"Laptop with Backlit Keyboard, Long Battery, SSD",True
+P0249,Lenovo Laptop 705,Laptops,Lenovo,1101.0,4.0,263,"Laptop with Long Battery, Touchscreen",True
+P0250,HP Laptop 904,Laptops,HP,2383.17,4.6,163,"Laptop with Long Battery, Backlit Keyboard, SSD",False
+P0251,Dell Laptop 969,Laptops,Dell,2008.83,4.5,83,"Laptop with Touchscreen, Long Battery",False
+P0252,Apple Laptop 670,Laptops,Apple,1624.77,5.0,140,"Laptop with Long Battery, SSD",True
+P0253,HP Laptop 967,Laptops,HP,1793.41,4.8,36,"Laptop with SSD, Touchscreen, Long Battery",True
+P0254,Lenovo Laptop 994,Laptops,Lenovo,1847.34,4.6,380,"Laptop with Backlit Keyboard, Touchscreen",True
+P0255,Lenovo Laptop 410,Laptops,Lenovo,917.78,4.5,389,"Laptop with Backlit Keyboard, SSD",True
+P0256,Lenovo Laptop 820,Laptops,Lenovo,2328.88,4.6,292,"Laptop with Long Battery, SSD",True
+P0257,HP Laptop 467,Laptops,HP,1261.32,4.3,248,"Laptop with Touchscreen, Backlit Keyboard, Long Battery",True
+P0258,Lenovo Laptop 308,Laptops,Lenovo,2023.26,4.4,298,"Laptop with Touchscreen, Backlit Keyboard, SSD",True
+P0259,Dell Laptop 698,Laptops,Dell,532.44,4.3,178,"Laptop with Touchscreen, SSD, Long Battery",True
+P0260,Lenovo Laptop 663,Laptops,Lenovo,1639.58,4.3,245,"Laptop with Touchscreen, Backlit Keyboard, Long Battery",True
+P0261,HP Laptop 600,Laptops,HP,838.53,4.4,27,"Laptop with SSD, Touchscreen",True
+P0262,Apple Laptop 962,Laptops,Apple,2028.68,4.7,87,"Laptop with SSD, Touchscreen",True
+P0263,Dell Laptop 732,Laptops,Dell,1511.47,4.4,282,"Laptop with Long Battery, SSD, Touchscreen",False
+P0264,Apple Laptop 648,Laptops,Apple,533.45,4.7,422,"Laptop with SSD, Touchscreen, Backlit Keyboard",True
+P0265,Apple Laptop 346,Laptops,Apple,2336.1,4.8,146,"Laptop with Touchscreen, Backlit Keyboard",False
+P0266,Apple Laptop 678,Laptops,Apple,1246.1,4.5,360,"Laptop with Backlit Keyboard, Long Battery",True
+P0267,Apple Laptop 665,Laptops,Apple,687.0,4.5,369,"Laptop with SSD, Touchscreen, Long Battery",True
+P0268,Apple Laptop 903,Laptops,Apple,1499.72,4.6,127,"Laptop with SSD, Touchscreen, Long Battery",True
+P0269,ASUS Laptop 176,Laptops,ASUS,1451.0,4.0,18,"Laptop with SSD, Long Battery, Backlit Keyboard",True
+P0270,ASUS Laptop 940,Laptops,ASUS,788.38,4.5,298,"Laptop with SSD, Backlit Keyboard, Long Battery",True
+P0271,ASUS Laptop 653,Laptops,ASUS,2169.3,4.4,414,"Laptop with Long Battery, Touchscreen, SSD",True
+P0272,ASUS Laptop 200,Laptops,ASUS,1990.91,4.4,319,"Laptop with Backlit Keyboard, SSD, Long Battery",False
+P0273,HP Laptop 561,Laptops,HP,559.25,4.2,231,"Laptop with Backlit Keyboard, Long Battery, Touchscreen",True
+P0274,ASUS Laptop 733,Laptops,ASUS,1821.34,4.3,52,"Laptop with Backlit Keyboard, Touchscreen, SSD",True
+P0275,Dell Laptop 257,Laptops,Dell,1260.0,4.5,56,"Laptop with Touchscreen, Backlit Keyboard, SSD",True
+P0276,HP Laptop 204,Laptops,HP,1389.47,4.5,230,"Laptop with SSD, Long Battery",False
+P0277,ASUS Laptop 126,Laptops,ASUS,1609.48,4.4,57,"Laptop with Touchscreen, Long Battery",True
+P0278,Lenovo Laptop 897,Laptops,Lenovo,524.68,4.2,276,"Laptop with Backlit Keyboard, Touchscreen",True
+P0279,Lenovo Laptop 374,Laptops,Lenovo,839.0,4.2,232,"Laptop with Backlit Keyboard, SSD, Touchscreen",True
+P0280,Lenovo Laptop 469,Laptops,Lenovo,1099.5,4.5,314,"Laptop with Backlit Keyboard, Touchscreen, Long Battery",True
+P0281,Lenovo Laptop 505,Laptops,Lenovo,713.94,4.2,181,"Laptop with Long Battery, Backlit Keyboard, Touchscreen",False
+P0282,ASUS Laptop 811,Laptops,ASUS,772.25,4.2,100,"Laptop with Long Battery, Backlit Keyboard",False
+P0283,HP Laptop 602,Laptops,HP,1082.9,4.4,153,"Laptop with Touchscreen, Backlit Keyboard",False
+P0284,HP Laptop 706,Laptops,HP,727.78,4.3,246,"Laptop with SSD, Touchscreen",True
+P0285,Lenovo Laptop 170,Laptops,Lenovo,2095.37,4.7,133,"Laptop with Long Battery, SSD, Backlit Keyboard",True
+P0286,Dell Laptop 175,Laptops,Dell,1930.47,4.7,283,"Laptop with Long Battery, Touchscreen, Backlit Keyboard",False
+P0287,ASUS Laptop 818,Laptops,ASUS,573.53,4.6,346,"Laptop with SSD, Long Battery",True
+P0288,Dell Laptop 760,Laptops,Dell,1794.0,4.2,15,"Laptop with Touchscreen, Backlit Keyboard, SSD",True
+P0289,HP Laptop 671,Laptops,HP,944.0,4.4,210,"Laptop with Long Battery, Backlit Keyboard",False
+P0290,ASUS Laptop 125,Laptops,ASUS,1880.87,4.3,481,"Laptop with SSD, Backlit Keyboard, Touchscreen",True
+P0291,Apple Laptop 456,Laptops,Apple,2162.64,4.9,276,"Laptop with Touchscreen, Backlit Keyboard, SSD",False
+P0292,HP Laptop 813,Laptops,HP,1452.33,4.3,32,"Laptop with Touchscreen, SSD, Backlit Keyboard",True
+P0293,Apple Laptop 793,Laptops,Apple,2198.36,4.9,99,"Laptop with Backlit Keyboard, Touchscreen",True
+P0294,HP Laptop 337,Laptops,HP,1619.7,4.8,212,"Laptop with Backlit Keyboard, SSD, Long Battery",True
+P0295,ASUS Laptop 539,Laptops,ASUS,2266.19,4.5,115,"Laptop with SSD, Touchscreen, Long Battery",True
+P0296,Apple Laptop 649,Laptops,Apple,1654.7,5.0,110,"Laptop with Touchscreen, Backlit Keyboard",False
+P0297,Apple Laptop 640,Laptops,Apple,1024.71,4.8,310,"Laptop with Long Battery, Touchscreen, Backlit Keyboard",True
+P0298,HP Laptop 276,Laptops,HP,1203.97,4.3,170,"Laptop with SSD, Touchscreen, Long Battery",True
+P0299,Dell Laptop 810,Laptops,Dell,1110.76,4.1,315,"Laptop with Long Battery, Backlit Keyboard",True
+P0300,ASUS Laptop 750,Laptops,ASUS,1267.42,4.1,157,"Laptop with Backlit Keyboard, Long Battery",True
+P0301,Dell Laptop 154,Laptops,Dell,1129.16,4.3,109,"Laptop with SSD, Backlit Keyboard, Long Battery",False
+P0302,ASUS Laptop 801,Laptops,ASUS,1510.88,4.5,260,"Laptop with Long Battery, Touchscreen, Backlit Keyboard",True
+P0303,Apple Laptop 325,Laptops,Apple,1630.8,5.0,285,"Laptop with SSD, Backlit Keyboard, Long Battery",True
+P0304,Dell Laptop 891,Laptops,Dell,2061.48,4.5,147,"Laptop with SSD, Touchscreen, Long Battery",True
+P0305,ASUS Laptop 836,Laptops,ASUS,2145.22,4.2,386,"Laptop with Backlit Keyboard, Long Battery, SSD",True
+P0306,HP Laptop 369,Laptops,HP,2249.62,4.2,407,"Laptop with SSD, Backlit Keyboard, Long Battery",True
+P0307,Dell Laptop 459,Laptops,Dell,2121.41,4.6,411,"Laptop with Backlit Keyboard, Touchscreen, SSD",True
+P0308,Dell Laptop 645,Laptops,Dell,2110.88,4.5,158,"Laptop with Backlit Keyboard, Long Battery, Touchscreen",True
+P0309,ASUS Laptop 197,Laptops,ASUS,2470.98,4.6,151,"Laptop with Long Battery, SSD",True
+P0310,Dell Laptop 948,Laptops,Dell,999.35,4.4,82,"Laptop with Long Battery, Backlit Keyboard",True
+P0311,Lenovo Laptop 913,Laptops,Lenovo,1250.34,4.0,393,"Laptop with Long Battery, Touchscreen",True
+P0312,HP Laptop 695,Laptops,HP,1409.39,4.3,244,"Laptop with SSD, Touchscreen",True
+P0313,Apple Laptop 539,Laptops,Apple,2091.36,4.7,175,"Laptop with Long Battery, Backlit Keyboard",True
+P0314,HP Laptop 972,Laptops,HP,1594.62,4.3,33,"Laptop with Touchscreen, Long Battery, SSD",True
+P0315,Lenovo Laptop 261,Laptops,Lenovo,532.56,4.6,113,"Laptop with Long Battery, SSD, Backlit Keyboard",True
+P0316,HP Laptop 380,Laptops,HP,817.95,4.6,52,"Laptop with Touchscreen, Backlit Keyboard",True
+P0317,Dell Laptop 843,Laptops,Dell,603.57,4.4,56,"Laptop with Long Battery, Touchscreen",True
+P0318,Apple Laptop 707,Laptops,Apple,926.84,4.3,14,"Laptop with Long Battery, SSD",True
+P0319,Apple Laptop 235,Laptops,Apple,2476.31,4.8,55,"Laptop with SSD, Long Battery, Backlit Keyboard",True
+P0320,Apple Laptop 240,Laptops,Apple,1126.7,4.8,45,"Laptop with Backlit Keyboard, Touchscreen, SSD",True
+P0321,ASUS Laptop 839,Laptops,ASUS,1800.04,4.5,325,"Laptop with Backlit Keyboard, Long Battery",False
+P0322,Dell Laptop 870,Laptops,Dell,673.38,4.1,229,"Laptop with Long Battery, Backlit Keyboard",True
+P0323,Dell Laptop 354,Laptops,Dell,995.57,4.4,115,"Laptop with SSD, Touchscreen, Backlit Keyboard",True
+P0324,Lenovo Laptop 912,Laptops,Lenovo,1091.08,4.0,67,"Laptop with Long Battery, Backlit Keyboard",True
+P0325,Lenovo Laptop 112,Laptops,Lenovo,1776.16,4.2,450,"Laptop with Touchscreen, SSD, Backlit Keyboard",False
+P0326,HP Laptop 582,Laptops,HP,1592.71,4.3,44,"Laptop with SSD, Touchscreen",True
+P0327,HP Laptop 908,Laptops,HP,931.49,4.6,226,"Laptop with Touchscreen, Long Battery, Backlit Keyboard",False
+P0328,Apple Laptop 256,Laptops,Apple,1781.07,4.8,271,"Laptop with SSD, Backlit Keyboard, Long Battery",True
+P0329,Dell Laptop 749,Laptops,Dell,1572.78,4.4,233,"Laptop with Touchscreen, Long Battery",True
+P0330,Apple Laptop 218,Laptops,Apple,988.96,4.9,71,"Laptop with SSD, Backlit Keyboard, Long Battery",True
+P0331,Dell Laptop 455,Laptops,Dell,1903.0,4.3,393,"Laptop with Backlit Keyboard, Long Battery, SSD",True
+P0332,Apple Laptop 926,Laptops,Apple,2042.86,4.5,144,"Laptop with Touchscreen, Long Battery, SSD",True
+P0333,Lenovo Laptop 611,Laptops,Lenovo,1410.4,4.2,140,"Laptop with Touchscreen, SSD",True
+P0334,ASUS Laptop 858,Laptops,ASUS,1848.24,4.3,135,"Laptop with SSD, Long Battery",True
+P0335,Lenovo Laptop 283,Laptops,Lenovo,1227.95,4.6,174,"Laptop with Long Battery, SSD",True
+P0336,Lenovo Laptop 945,Laptops,Lenovo,2331.71,4.4,267,"Laptop with Touchscreen, SSD",True
+P0337,Dell Laptop 147,Laptops,Dell,946.37,4.3,406,"Laptop with SSD, Backlit Keyboard, Touchscreen",True
+P0338,HP Laptop 477,Laptops,HP,672.77,4.3,411,"Laptop with Touchscreen, Long Battery",True
+P0339,ASUS Laptop 605,Laptops,ASUS,985.17,4.2,13,"Laptop with Backlit Keyboard, SSD",False
+P0340,Apple Laptop 959,Laptops,Apple,966.0,4.5,398,"Laptop with Touchscreen, SSD",False
+P0341,HP Laptop 343,Laptops,HP,707.9,4.3,374,"Laptop with Long Battery, SSD, Touchscreen",True
+P0342,Apple Laptop 965,Laptops,Apple,587.8,4.4,307,"Laptop with Touchscreen, Backlit Keyboard, SSD",True
+P0343,ASUS Laptop 176,Laptops,ASUS,767.03,4.5,76,"Laptop with Long Battery, Touchscreen",True
+P0344,HP Laptop 920,Laptops,HP,1021.98,4.2,149,"Laptop with Touchscreen, Backlit Keyboard, Long Battery",True
+P0345,Apple Laptop 888,Laptops,Apple,2387.11,4.6,94,"Laptop with Backlit Keyboard, SSD",False
+P0346,Lenovo Laptop 466,Laptops,Lenovo,1128.07,4.1,247,"Laptop with Long Battery, Backlit Keyboard",True
+P0347,Apple Laptop 411,Laptops,Apple,680.84,4.8,85,"Laptop with Backlit Keyboard, Long Battery",True
+P0348,Dell Laptop 150,Laptops,Dell,2436.8,4.4,497,"Laptop with Touchscreen, SSD, Long Battery",False
+P0349,Lenovo Laptop 196,Laptops,Lenovo,1611.91,4.5,16,"Laptop with SSD, Long Battery, Touchscreen",True
+P0350,Dell Laptop 481,Laptops,Dell,761.43,4.5,21,"Laptop with Touchscreen, SSD",True
+P0351,Dell Laptop 231,Laptops,Dell,2304.99,4.5,31,"Laptop with Touchscreen, SSD",False
+P0352,Apple Laptop 941,Laptops,Apple,835.98,4.6,359,"Laptop with Long Battery, SSD, Backlit Keyboard",False
+P0353,Apple Headphone 386,Headphones,Apple,125.15,4.2,341,"Headphone with Wireless, Noise Cancelling, Hi-Res Audio",True
+P0354,Sennheiser Headphone 162,Headphones,Sennheiser,194.2,4.1,80,"Headphone with Hi-Res Audio, Wireless",False
+P0355,Bose Headphone 355,Headphones,Bose,274.93,4.8,193,"Headphone with Comfort Fit, Hi-Res Audio",False
+P0356,JBL Headphone 679,Headphones,JBL,323.5,4.2,23,"Headphone with Comfort Fit, Wireless, Noise Cancelling",True
+P0357,JBL Headphone 897,Headphones,JBL,126.66,4.3,402,"Headphone with Noise Cancelling, Wireless, Hi-Res Audio",True
+P0358,Bose Headphone 372,Headphones,Bose,85.05,4.5,443,"Headphone with Wireless, Hi-Res Audio",False
+P0359,Apple Headphone 277,Headphones,Apple,377.32,4.9,172,"Headphone with Wireless, Hi-Res Audio",True
+P0360,JBL Headphone 681,Headphones,JBL,59.87,4.2,287,"Headphone with Wireless, Comfort Fit",True
+P0361,Bose Headphone 338,Headphones,Bose,221.65,4.2,254,"Headphone with Noise Cancelling, Hi-Res Audio",True
+P0362,Apple Headphone 233,Headphones,Apple,371.26,4.4,21,"Headphone with Wireless, Comfort Fit, Noise Cancelling",True
+P0363,JBL Headphone 213,Headphones,JBL,296.64,4.1,310,"Headphone with Noise Cancelling, Wireless, Hi-Res Audio",True
+P0364,Apple Headphone 261,Headphones,Apple,155.62,4.2,99,"Headphone with Comfort Fit, Hi-Res Audio, Wireless",True
+P0365,Bose Headphone 487,Headphones,Bose,282.94,4.8,383,"Headphone with Hi-Res Audio, Noise Cancelling, Comfort Fit",True
+P0366,JBL Headphone 681,Headphones,JBL,187.06,4.4,172,"Headphone with Wireless, Hi-Res Audio",True
+P0367,JBL Headphone 439,Headphones,JBL,86.44,4.1,173,"Headphone with Wireless, Comfort Fit",True
+P0368,Sony Headphone 846,Headphones,Sony,337.58,4.7,117,"Headphone with Comfort Fit, Noise Cancelling, Wireless",True
+P0369,Sony Headphone 837,Headphones,Sony,172.67,4.6,234,"Headphone with Noise Cancelling, Wireless",False
+P0370,Bose Headphone 487,Headphones,Bose,359.59,4.6,413,"Headphone with Comfort Fit, Noise Cancelling, Wireless",True
+P0371,Bose Headphone 134,Headphones,Bose,207.95,4.6,497,"Headphone with Noise Cancelling, Wireless, Hi-Res Audio",True
+P0372,Sony Headphone 264,Headphones,Sony,169.63,4.6,314,"Headphone with Noise Cancelling, Wireless",False
+P0373,Sony Headphone 721,Headphones,Sony,200.96,4.5,179,"Headphone with Wireless, Noise Cancelling, Hi-Res Audio",True
+P0374,Bose Headphone 847,Headphones,Bose,193.25,4.4,59,"Headphone with Hi-Res Audio, Wireless, Noise Cancelling",True
+P0375,Sennheiser Headphone 257,Headphones,Sennheiser,250.12,4.5,228,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0376,Apple Headphone 591,Headphones,Apple,338.36,4.7,115,"Headphone with Noise Cancelling, Comfort Fit",True
+P0377,Apple Headphone 218,Headphones,Apple,391.97,4.6,468,"Headphone with Comfort Fit, Wireless, Hi-Res Audio",True
+P0378,Sony Headphone 479,Headphones,Sony,274.65,4.5,32,"Headphone with Hi-Res Audio, Noise Cancelling, Wireless",True
+P0379,Sennheiser Headphone 375,Headphones,Sennheiser,212.77,3.9,351,"Headphone with Wireless, Hi-Res Audio",True
+P0380,Sony Headphone 523,Headphones,Sony,283.85,4.8,429,"Headphone with Noise Cancelling, Wireless",False
+P0381,JBL Headphone 686,Headphones,JBL,290.47,4.6,50,"Headphone with Comfort Fit, Wireless",False
+P0382,Sony Headphone 919,Headphones,Sony,225.74,4.8,98,"Headphone with Noise Cancelling, Wireless",True
+P0383,Bose Headphone 533,Headphones,Bose,332.96,4.4,431,"Headphone with Comfort Fit, Noise Cancelling",True
+P0384,JBL Headphone 926,Headphones,JBL,140.26,4.3,294,"Headphone with Noise Cancelling, Wireless",False
+P0385,JBL Headphone 569,Headphones,JBL,164.14,4.0,222,"Headphone with Comfort Fit, Noise Cancelling",True
+P0386,Bose Headphone 202,Headphones,Bose,248.31,4.6,454,"Headphone with Noise Cancelling, Wireless",True
+P0387,Sennheiser Headphone 685,Headphones,Sennheiser,142.45,4.2,216,"Headphone with Noise Cancelling, Comfort Fit, Wireless",True
+P0388,JBL Headphone 139,Headphones,JBL,263.03,4.4,35,"Headphone with Hi-Res Audio, Comfort Fit, Noise Cancelling",False
+P0389,Apple Headphone 937,Headphones,Apple,363.96,4.3,449,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0390,Bose Headphone 553,Headphones,Bose,97.03,4.7,319,"Headphone with Hi-Res Audio, Comfort Fit, Wireless",True
+P0391,Bose Headphone 516,Headphones,Bose,204.6,4.6,43,"Headphone with Hi-Res Audio, Noise Cancelling, Comfort Fit",True
+P0392,JBL Headphone 636,Headphones,JBL,191.18,4.3,458,"Headphone with Wireless, Noise Cancelling",True
+P0393,Sony Headphone 469,Headphones,Sony,137.32,4.4,431,"Headphone with Hi-Res Audio, Wireless",False
+P0394,JBL Headphone 797,Headphones,JBL,188.93,4.4,260,"Headphone with Wireless, Comfort Fit",False
+P0395,Bose Headphone 664,Headphones,Bose,386.18,4.6,393,"Headphone with Hi-Res Audio, Noise Cancelling, Wireless",True
+P0396,Apple Headphone 974,Headphones,Apple,59.61,4.1,125,"Headphone with Wireless, Hi-Res Audio",True
+P0397,Apple Headphone 985,Headphones,Apple,278.06,4.6,341,"Headphone with Comfort Fit, Noise Cancelling",True
+P0398,JBL Headphone 722,Headphones,JBL,330.3,4.1,446,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0399,Sennheiser Headphone 793,Headphones,Sennheiser,138.2,4.1,297,"Headphone with Noise Cancelling, Comfort Fit, Wireless",True
+P0400,Apple Headphone 444,Headphones,Apple,289.54,4.6,345,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0401,Bose Headphone 158,Headphones,Bose,102.48,4.6,379,"Headphone with Hi-Res Audio, Comfort Fit, Noise Cancelling",True
+P0402,Sennheiser Headphone 528,Headphones,Sennheiser,399.11,4.2,308,"Headphone with Comfort Fit, Hi-Res Audio, Noise Cancelling",True
+P0403,Apple Headphone 647,Headphones,Apple,304.29,4.4,442,"Headphone with Hi-Res Audio, Comfort Fit, Wireless",True
+P0404,JBL Headphone 231,Headphones,JBL,113.4,3.9,345,"Headphone with Wireless, Hi-Res Audio, Comfort Fit",True
+P0405,Bose Headphone 414,Headphones,Bose,174.35,4.5,309,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0406,Sennheiser Headphone 987,Headphones,Sennheiser,347.92,4.3,266,"Headphone with Comfort Fit, Noise Cancelling",True
+P0407,Sennheiser Headphone 991,Headphones,Sennheiser,235.44,4.2,185,"Headphone with Wireless, Noise Cancelling",False
+P0408,JBL Headphone 246,Headphones,JBL,362.5,4.6,180,"Headphone with Wireless, Noise Cancelling, Comfort Fit",True
+P0409,Apple Headphone 380,Headphones,Apple,272.07,4.3,401,"Headphone with Wireless, Hi-Res Audio",True
+P0410,Sennheiser Headphone 232,Headphones,Sennheiser,324.82,4.5,254,"Headphone with Comfort Fit, Wireless, Hi-Res Audio",False
+P0411,Sony Headphone 482,Headphones,Sony,63.2,4.2,107,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0412,Sony Headphone 810,Headphones,Sony,269.34,4.4,206,"Headphone with Hi-Res Audio, Noise Cancelling, Comfort Fit",True
+P0413,Bose Headphone 397,Headphones,Bose,72.85,4.1,185,"Headphone with Hi-Res Audio, Wireless, Noise Cancelling",False
+P0414,Apple Headphone 931,Headphones,Apple,312.54,4.4,382,"Headphone with Noise Cancelling, Comfort Fit, Hi-Res Audio",True
+P0415,Bose Headphone 273,Headphones,Bose,306.93,4.7,343,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0416,Sennheiser Headphone 647,Headphones,Sennheiser,356.79,4.2,65,"Headphone with Noise Cancelling, Hi-Res Audio",True
+P0417,Sony Headphone 489,Headphones,Sony,291.41,4.6,369,"Headphone with Hi-Res Audio, Wireless",True
+P0418,Bose Headphone 408,Headphones,Bose,293.32,4.7,328,"Headphone with Noise Cancelling, Hi-Res Audio, Wireless",True
+P0419,Sennheiser Headphone 836,Headphones,Sennheiser,340.73,4.1,411,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0420,Sennheiser Headphone 369,Headphones,Sennheiser,119.53,3.9,219,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0421,Bose Headphone 312,Headphones,Bose,63.79,4.4,16,"Headphone with Hi-Res Audio, Noise Cancelling, Comfort Fit",True
+P0422,Sony Headphone 252,Headphones,Sony,342.33,4.7,380,"Headphone with Noise Cancelling, Hi-Res Audio",True
+P0423,Apple Headphone 403,Headphones,Apple,275.52,4.6,426,"Headphone with Comfort Fit, Noise Cancelling, Hi-Res Audio",True
+P0424,Sony Headphone 793,Headphones,Sony,348.29,4.5,58,"Headphone with Comfort Fit, Hi-Res Audio, Noise Cancelling",True
+P0425,Sony Headphone 274,Headphones,Sony,348.2,4.7,459,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0426,Apple Headphone 510,Headphones,Apple,335.24,4.4,363,"Headphone with Comfort Fit, Wireless, Hi-Res Audio",False
+P0427,Sennheiser Headphone 215,Headphones,Sennheiser,277.1,4.5,63,"Headphone with Noise Cancelling, Comfort Fit",False
+P0428,JBL Headphone 548,Headphones,JBL,218.94,4.1,323,"Headphone with Comfort Fit, Wireless",True
+P0429,Bose Headphone 521,Headphones,Bose,219.08,4.4,345,"Headphone with Noise Cancelling, Comfort Fit, Wireless",True
+P0430,Sony Headphone 885,Headphones,Sony,296.6,4.7,277,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0431,Sennheiser Headphone 454,Headphones,Sennheiser,281.6,4.1,15,"Headphone with Wireless, Hi-Res Audio, Noise Cancelling",True
+P0432,JBL Headphone 990,Headphones,JBL,347.1,4.5,174,"Headphone with Noise Cancelling, Wireless",True
+P0433,Apple Headphone 328,Headphones,Apple,389.55,4.3,245,"Headphone with Comfort Fit, Noise Cancelling, Hi-Res Audio",False
+P0434,JBL Headphone 557,Headphones,JBL,206.83,4.3,62,"Headphone with Noise Cancelling, Wireless, Comfort Fit",False
+P0435,Sennheiser Headphone 945,Headphones,Sennheiser,62.54,4.1,297,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0436,Sennheiser Headphone 155,Headphones,Sennheiser,382.62,4.2,296,"Headphone with Comfort Fit, Wireless",False
+P0437,Apple Headphone 877,Headphones,Apple,300.57,4.4,191,"Headphone with Noise Cancelling, Wireless",True
+P0438,JBL Headphone 146,Headphones,JBL,232.69,4.4,430,"Headphone with Comfort Fit, Noise Cancelling",False
+P0439,Sony Headphone 223,Headphones,Sony,139.0,4.2,376,"Headphone with Wireless, Comfort Fit, Noise Cancelling",True
+P0440,Sony Headphone 748,Headphones,Sony,315.0,4.3,347,"Headphone with Comfort Fit, Wireless",True
+P0441,Sennheiser Headphone 666,Headphones,Sennheiser,51.52,4.2,364,"Headphone with Comfort Fit, Hi-Res Audio, Noise Cancelling",True
+P0442,Bose Headphone 720,Headphones,Bose,86.24,4.5,150,"Headphone with Comfort Fit, Wireless, Noise Cancelling",False
+P0443,Apple Headphone 236,Headphones,Apple,389.67,4.6,368,"Headphone with Comfort Fit, Hi-Res Audio",True
+P0444,JBL Headphone 666,Headphones,JBL,351.25,4.4,329,"Headphone with Wireless, Noise Cancelling",True
+P0445,Apple Headphone 827,Headphones,Apple,372.42,4.4,69,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0446,JBL Headphone 783,Headphones,JBL,218.13,4.1,277,"Headphone with Hi-Res Audio, Wireless, Noise Cancelling",True
+P0447,Sony Headphone 157,Headphones,Sony,183.3,4.1,156,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0448,Bose Headphone 402,Headphones,Bose,343.78,4.7,426,"Headphone with Noise Cancelling, Wireless",False
+P0449,Sony Headphone 675,Headphones,Sony,265.64,4.7,271,"Headphone with Comfort Fit, Noise Cancelling",True
+P0450,Sony Headphone 907,Headphones,Sony,374.27,4.5,113,"Headphone with Noise Cancelling, Comfort Fit, Wireless",False
+P0451,Bose Headphone 763,Headphones,Bose,369.02,4.7,160,"Headphone with Wireless, Hi-Res Audio, Noise Cancelling",False
+P0452,Bose Headphone 277,Headphones,Bose,394.21,4.3,229,"Headphone with Comfort Fit, Noise Cancelling",True
+P0453,JBL Headphone 966,Headphones,JBL,142.48,3.9,373,"Headphone with Noise Cancelling, Wireless, Hi-Res Audio",True
+P0454,Sony Headphone 152,Headphones,Sony,103.8,4.3,47,"Headphone with Comfort Fit, Hi-Res Audio, Wireless",True
+P0455,JBL Headphone 169,Headphones,JBL,126.99,3.9,284,"Headphone with Comfort Fit, Hi-Res Audio",False
+P0456,Sony Headphone 779,Headphones,Sony,172.29,4.6,121,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",False
+P0457,JBL Headphone 109,Headphones,JBL,338.29,4.6,133,"Headphone with Hi-Res Audio, Wireless",True
+P0458,Sony Headphone 915,Headphones,Sony,288.89,4.5,286,"Headphone with Comfort Fit, Wireless",True
+P0459,Sony Headphone 483,Headphones,Sony,368.97,4.8,469,"Headphone with Comfort Fit, Noise Cancelling, Wireless",True
+P0460,Apple Headphone 271,Headphones,Apple,229.86,4.9,353,"Headphone with Noise Cancelling, Comfort Fit",True
+P0461,Sennheiser Headphone 948,Headphones,Sennheiser,342.48,4.1,22,"Headphone with Noise Cancelling, Hi-Res Audio, Comfort Fit",False
+P0462,Apple Headphone 282,Headphones,Apple,63.26,4.1,476,"Headphone with Noise Cancelling, Hi-Res Audio, Comfort Fit",True
+P0463,Sennheiser Headphone 543,Headphones,Sennheiser,185.81,4.2,283,"Headphone with Noise Cancelling, Wireless, Comfort Fit",True
+P0464,JBL Headphone 146,Headphones,JBL,72.13,4.2,64,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0465,Apple Headphone 548,Headphones,Apple,262.3,4.5,252,"Headphone with Comfort Fit, Hi-Res Audio, Noise Cancelling",True
+P0466,JBL Headphone 915,Headphones,JBL,126.95,4.2,500,"Headphone with Wireless, Comfort Fit, Hi-Res Audio",True
+P0467,JBL Headphone 142,Headphones,JBL,356.17,4.1,290,"Headphone with Comfort Fit, Hi-Res Audio",True
+P0468,Apple Headphone 843,Headphones,Apple,123.52,4.5,92,"Headphone with Wireless, Comfort Fit, Noise Cancelling",True
+P0469,Bose Headphone 217,Headphones,Bose,265.91,4.5,246,"Headphone with Noise Cancelling, Hi-Res Audio",True
+P0470,Apple Headphone 302,Headphones,Apple,285.09,4.5,353,"Headphone with Hi-Res Audio, Wireless, Noise Cancelling",True
+P0471,Sony Headphone 298,Headphones,Sony,149.8,4.1,325,"Headphone with Comfort Fit, Wireless, Hi-Res Audio",True
+P0472,JBL Headphone 927,Headphones,JBL,103.34,4.1,170,"Headphone with Comfort Fit, Noise Cancelling, Hi-Res Audio",True
+P0473,Bose Headphone 383,Headphones,Bose,299.27,4.7,459,"Headphone with Wireless, Hi-Res Audio, Comfort Fit",False
+P0474,Sennheiser Headphone 598,Headphones,Sennheiser,205.88,4.3,320,"Headphone with Wireless, Hi-Res Audio",True
+P0475,Apple Headphone 651,Headphones,Apple,350.55,4.4,463,"Headphone with Hi-Res Audio, Comfort Fit",True
+P0476,Sony Headphone 746,Headphones,Sony,362.24,4.8,118,"Headphone with Comfort Fit, Hi-Res Audio",True
+P0477,JBL Headphone 652,Headphones,JBL,141.22,4.3,124,"Headphone with Wireless, Comfort Fit, Hi-Res Audio",True
+P0478,Bose Headphone 506,Headphones,Bose,212.65,4.4,444,"Headphone with Noise Cancelling, Hi-Res Audio, Comfort Fit",True
+P0479,JBL Headphone 679,Headphones,JBL,99.13,3.9,30,"Headphone with Comfort Fit, Wireless",True
+P0480,Sennheiser Headphone 339,Headphones,Sennheiser,131.11,4.0,474,"Headphone with Wireless, Hi-Res Audio",True
+P0481,Sennheiser Headphone 147,Headphones,Sennheiser,214.39,4.1,370,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0482,Apple Headphone 485,Headphones,Apple,252.52,4.6,274,"Headphone with Hi-Res Audio, Comfort Fit, Noise Cancelling",True
+P0483,Sennheiser Headphone 515,Headphones,Sennheiser,390.44,4.1,464,"Headphone with Hi-Res Audio, Wireless, Comfort Fit",True
+P0484,JBL Headphone 335,Headphones,JBL,358.71,4.3,86,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0485,Bose Headphone 221,Headphones,Bose,176.78,4.5,378,"Headphone with Comfort Fit, Wireless",True
+P0486,Sennheiser Headphone 704,Headphones,Sennheiser,286.33,4.3,134,"Headphone with Comfort Fit, Noise Cancelling",True
+P0487,Bose Headphone 744,Headphones,Bose,250.72,4.4,95,"Headphone with Wireless, Noise Cancelling",True
+P0488,Bose Headphone 677,Headphones,Bose,230.82,4.5,120,"Headphone with Hi-Res Audio, Noise Cancelling",False
+P0489,JBL Headphone 274,Headphones,JBL,397.47,4.5,83,"Headphone with Comfort Fit, Hi-Res Audio",True
+P0490,JBL Headphone 841,Headphones,JBL,280.88,4.2,127,"Headphone with Comfort Fit, Hi-Res Audio, Noise Cancelling",False
+P0491,Sennheiser Headphone 635,Headphones,Sennheiser,96.27,3.8,100,"Headphone with Wireless, Hi-Res Audio, Noise Cancelling",False
+P0492,JBL Headphone 644,Headphones,JBL,259.93,4.5,347,"Headphone with Noise Cancelling, Wireless",True
+P0493,JBL Headphone 893,Headphones,JBL,238.75,4.0,367,"Headphone with Comfort Fit, Wireless, Noise Cancelling",False
+P0494,Bose Headphone 887,Headphones,Bose,378.45,4.6,227,"Headphone with Hi-Res Audio, Comfort Fit, Noise Cancelling",True
+P0495,Apple Headphone 979,Headphones,Apple,217.0,4.2,458,"Headphone with Hi-Res Audio, Comfort Fit",False
+P0496,Apple Headphone 908,Headphones,Apple,116.16,4.5,13,"Headphone with Noise Cancelling, Hi-Res Audio",False
+P0497,Bose Headphone 470,Headphones,Bose,290.72,4.5,343,"Headphone with Wireless, Comfort Fit",True
+P0498,Apple Headphone 474,Headphones,Apple,349.24,4.6,292,"Headphone with Comfort Fit, Noise Cancelling, Wireless",False
+P0499,Bose Headphone 359,Headphones,Bose,179.57,4.4,386,"Headphone with Hi-Res Audio, Comfort Fit, Wireless",True
+P0500,Sony Headphone 816,Headphones,Sony,311.73,4.6,270,"Headphone with Noise Cancelling, Comfort Fit",False
+P0501,Apple Headphone 800,Headphones,Apple,330.3,4.7,335,"Headphone with Wireless, Comfort Fit",True
+P0502,Sony Headphone 714,Headphones,Sony,338.14,4.6,123,"Headphone with Noise Cancelling, Comfort Fit, Wireless",True
+P0503,Sony Headphone 510,Headphones,Sony,263.16,4.7,234,"Headphone with Noise Cancelling, Comfort Fit, Wireless",True
+P0504,Bose Headphone 630,Headphones,Bose,347.7,4.9,324,"Headphone with Wireless, Noise Cancelling, Hi-Res Audio",True
+P0505,Sony Headphone 261,Headphones,Sony,175.91,4.5,190,"Headphone with Hi-Res Audio, Wireless",False
+P0506,Sennheiser Headphone 854,Headphones,Sennheiser,255.13,4.3,155,"Headphone with Noise Cancelling, Hi-Res Audio",True
+P0507,Apple Headphone 720,Headphones,Apple,387.15,4.5,304,"Headphone with Comfort Fit, Wireless",True
+P0508,Apple Headphone 672,Headphones,Apple,111.26,4.4,494,"Headphone with Hi-Res Audio, Wireless",True
+P0509,JBL Headphone 932,Headphones,JBL,384.85,4.5,404,"Headphone with Comfort Fit, Wireless, Hi-Res Audio",True
+P0510,Apple Headphone 571,Headphones,Apple,386.43,4.6,142,"Headphone with Comfort Fit, Noise Cancelling",True
+P0511,Sennheiser Headphone 793,Headphones,Sennheiser,271.78,4.6,499,"Headphone with Hi-Res Audio, Wireless",True
+P0512,JBL Headphone 369,Headphones,JBL,237.48,4.4,214,"Headphone with Hi-Res Audio, Noise Cancelling",True
+P0513,Sony Headphone 421,Headphones,Sony,244.09,4.4,103,"Headphone with Wireless, Hi-Res Audio, Comfort Fit",True
+P0514,Samsung Tablet 371,Tablets,Samsung,349.63,3.8,437,"Tablet with Stylus Support, Retina Display",True
+P0515,Lenovo Tablet 222,Tablets,Lenovo,452.62,4.2,13,"Tablet with Lightweight, Long Battery",True
+P0516,Amazon Tablet 688,Tablets,Amazon,465.52,3.9,213,"Tablet with Lightweight, Retina Display, Stylus Support",True
+P0517,Lenovo Tablet 533,Tablets,Lenovo,259.01,4.0,211,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0518,Amazon Tablet 571,Tablets,Amazon,980.03,4.3,204,"Tablet with Retina Display, Lightweight, Long Battery",True
+P0519,Microsoft Tablet 291,Tablets,Microsoft,457.36,4.2,500,"Tablet with Stylus Support, Lightweight, Long Battery",True
+P0520,Microsoft Tablet 529,Tablets,Microsoft,306.33,4.0,240,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0521,Lenovo Tablet 334,Tablets,Lenovo,261.47,4.0,294,"Tablet with Long Battery, Retina Display",False
+P0522,Amazon Tablet 856,Tablets,Amazon,316.65,4.2,100,"Tablet with Lightweight, Retina Display",False
+P0523,Amazon Tablet 745,Tablets,Amazon,264.3,4.2,297,"Tablet with Lightweight, Stylus Support, Long Battery",True
+P0524,Amazon Tablet 320,Tablets,Amazon,234.13,3.8,240,"Tablet with Lightweight, Long Battery, Retina Display",True
+P0525,Microsoft Tablet 929,Tablets,Microsoft,456.82,4.0,72,"Tablet with Long Battery, Retina Display, Stylus Support",True
+P0526,Lenovo Tablet 764,Tablets,Lenovo,319.11,4.0,176,"Tablet with Long Battery, Stylus Support",False
+P0527,Amazon Tablet 393,Tablets,Amazon,906.19,4.1,225,"Tablet with Stylus Support, Retina Display, Lightweight",False
+P0528,Apple Tablet 421,Tablets,Apple,217.25,4.2,319,"Tablet with Long Battery, Lightweight, Stylus Support",False
+P0529,Microsoft Tablet 471,Tablets,Microsoft,904.54,4.4,447,"Tablet with Lightweight, Retina Display, Long Battery",True
+P0530,Samsung Tablet 861,Tablets,Samsung,768.61,4.3,213,"Tablet with Stylus Support, Retina Display",True
+P0531,Apple Tablet 661,Tablets,Apple,204.22,4.5,278,"Tablet with Retina Display, Stylus Support",True
+P0532,Apple Tablet 770,Tablets,Apple,373.08,4.1,387,"Tablet with Long Battery, Retina Display, Lightweight",True
+P0533,Amazon Tablet 958,Tablets,Amazon,682.51,4.0,349,"Tablet with Retina Display, Lightweight",True
+P0534,Microsoft Tablet 991,Tablets,Microsoft,884.6,4.2,312,"Tablet with Lightweight, Retina Display, Long Battery",False
+P0535,Lenovo Tablet 646,Tablets,Lenovo,519.73,4.1,422,"Tablet with Long Battery, Stylus Support, Retina Display",True
+P0536,Amazon Tablet 259,Tablets,Amazon,411.69,3.9,186,"Tablet with Retina Display, Lightweight, Long Battery",True
+P0537,Amazon Tablet 603,Tablets,Amazon,604.83,4.3,418,"Tablet with Long Battery, Retina Display, Stylus Support",True
+P0538,Lenovo Tablet 482,Tablets,Lenovo,346.53,3.7,233,"Tablet with Lightweight, Long Battery",False
+P0539,Samsung Tablet 499,Tablets,Samsung,288.78,4.1,226,"Tablet with Stylus Support, Lightweight, Retina Display",True
+P0540,Lenovo Tablet 926,Tablets,Lenovo,799.86,4.4,221,"Tablet with Long Battery, Lightweight, Stylus Support",True
+P0541,Apple Tablet 752,Tablets,Apple,305.05,4.2,106,"Tablet with Lightweight, Stylus Support, Long Battery",True
+P0542,Apple Tablet 122,Tablets,Apple,279.33,4.6,147,"Tablet with Retina Display, Stylus Support",True
+P0543,Amazon Tablet 254,Tablets,Amazon,768.04,4.0,185,"Tablet with Lightweight, Retina Display",False
+P0544,Microsoft Tablet 480,Tablets,Microsoft,817.87,4.2,441,"Tablet with Retina Display, Stylus Support, Lightweight",True
+P0545,Apple Tablet 656,Tablets,Apple,376.53,4.2,428,"Tablet with Stylus Support, Retina Display, Lightweight",False
+P0546,Apple Tablet 354,Tablets,Apple,253.67,4.5,111,"Tablet with Lightweight, Retina Display, Long Battery",False
+P0547,Apple Tablet 584,Tablets,Apple,592.97,4.8,332,"Tablet with Long Battery, Stylus Support, Retina Display",True
+P0548,Lenovo Tablet 753,Tablets,Lenovo,592.79,4.1,452,"Tablet with Stylus Support, Lightweight, Retina Display",True
+P0549,Apple Tablet 115,Tablets,Apple,350.57,4.3,71,"Tablet with Long Battery, Lightweight",False
+P0550,Samsung Tablet 902,Tablets,Samsung,157.59,3.7,137,"Tablet with Stylus Support, Lightweight, Retina Display",True
+P0551,Amazon Tablet 877,Tablets,Amazon,227.69,4.1,340,"Tablet with Retina Display, Stylus Support",True
+P0552,Lenovo Tablet 338,Tablets,Lenovo,822.75,4.0,20,"Tablet with Long Battery, Stylus Support, Retina Display",False
+P0553,Microsoft Tablet 140,Tablets,Microsoft,765.74,4.1,287,"Tablet with Lightweight, Long Battery, Stylus Support",False
+P0554,Samsung Tablet 431,Tablets,Samsung,631.7,4.2,45,"Tablet with Long Battery, Lightweight, Retina Display",True
+P0555,Amazon Tablet 475,Tablets,Amazon,401.32,3.9,385,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0556,Apple Tablet 735,Tablets,Apple,676.77,4.4,42,"Tablet with Long Battery, Lightweight",False
+P0557,Samsung Tablet 664,Tablets,Samsung,595.46,4.2,219,"Tablet with Long Battery, Stylus Support",True
+P0558,Apple Tablet 144,Tablets,Apple,231.82,4.4,113,"Tablet with Stylus Support, Retina Display",True
+P0559,Amazon Tablet 757,Tablets,Amazon,312.87,3.7,35,"Tablet with Lightweight, Long Battery, Stylus Support",True
+P0560,Samsung Tablet 313,Tablets,Samsung,665.06,3.9,194,"Tablet with Retina Display, Stylus Support, Lightweight",False
+P0561,Microsoft Tablet 731,Tablets,Microsoft,825.11,3.9,437,"Tablet with Retina Display, Long Battery, Lightweight",True
+P0562,Apple Tablet 199,Tablets,Apple,952.91,4.8,207,"Tablet with Stylus Support, Long Battery",True
+P0563,Samsung Tablet 740,Tablets,Samsung,597.26,4.0,64,"Tablet with Lightweight, Long Battery",True
+P0564,Amazon Tablet 206,Tablets,Amazon,747.17,4.2,215,"Tablet with Stylus Support, Long Battery",True
+P0565,Samsung Tablet 460,Tablets,Samsung,603.82,4.3,401,"Tablet with Long Battery, Stylus Support, Lightweight",False
+P0566,Microsoft Tablet 319,Tablets,Microsoft,667.15,4.2,239,"Tablet with Long Battery, Stylus Support, Lightweight",False
+P0567,Apple Tablet 710,Tablets,Apple,767.37,4.8,13,"Tablet with Stylus Support, Lightweight",True
+P0568,Samsung Tablet 890,Tablets,Samsung,332.6,3.9,245,"Tablet with Stylus Support, Retina Display, Long Battery",True
+P0569,Samsung Tablet 696,Tablets,Samsung,267.65,3.9,425,"Tablet with Stylus Support, Lightweight",True
+P0570,Apple Tablet 322,Tablets,Apple,634.91,4.5,98,"Tablet with Long Battery, Stylus Support",False
+P0571,Lenovo Tablet 757,Tablets,Lenovo,846.59,4.0,50,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0572,Microsoft Tablet 526,Tablets,Microsoft,445.74,4.2,344,"Tablet with Stylus Support, Long Battery",True
+P0573,Amazon Tablet 426,Tablets,Amazon,196.01,4.0,367,"Tablet with Long Battery, Lightweight",True
+P0574,Samsung Tablet 502,Tablets,Samsung,192.94,4.1,158,"Tablet with Retina Display, Lightweight, Stylus Support",False
+P0575,Samsung Tablet 685,Tablets,Samsung,262.36,3.7,53,"Tablet with Lightweight, Stylus Support",False
+P0576,Lenovo Tablet 880,Tablets,Lenovo,519.32,4.1,111,"Tablet with Lightweight, Long Battery",False
+P0577,Amazon Tablet 730,Tablets,Amazon,704.41,4.0,146,"Tablet with Stylus Support, Retina Display",False
+P0578,Microsoft Tablet 215,Tablets,Microsoft,732.03,4.2,107,"Tablet with Lightweight, Stylus Support, Long Battery",True
+P0579,Microsoft Tablet 412,Tablets,Microsoft,654.8,3.9,430,"Tablet with Long Battery, Lightweight",False
+P0580,Lenovo Tablet 937,Tablets,Lenovo,273.95,3.7,201,"Tablet with Stylus Support, Long Battery",True
+P0581,Apple Tablet 735,Tablets,Apple,245.52,4.0,185,"Tablet with Long Battery, Retina Display",True
+P0582,Microsoft Tablet 314,Tablets,Microsoft,532.55,3.7,277,"Tablet with Stylus Support, Long Battery",True
+P0583,Lenovo Tablet 244,Tablets,Lenovo,560.57,4.1,473,"Tablet with Lightweight, Long Battery",True
+P0584,Microsoft Tablet 908,Tablets,Microsoft,294.77,3.9,44,"Tablet with Retina Display, Stylus Support, Lightweight",False
+P0585,Microsoft Tablet 468,Tablets,Microsoft,713.53,4.4,454,"Tablet with Retina Display, Stylus Support",False
+P0586,Samsung Tablet 826,Tablets,Samsung,982.82,4.2,453,"Tablet with Long Battery, Stylus Support",True
+P0587,Samsung Tablet 674,Tablets,Samsung,319.04,4.3,482,"Tablet with Retina Display, Lightweight",True
+P0588,Microsoft Tablet 118,Tablets,Microsoft,566.44,4.1,130,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0589,Apple Tablet 934,Tablets,Apple,681.92,4.7,87,"Tablet with Long Battery, Retina Display",True
+P0590,Amazon Tablet 491,Tablets,Amazon,708.39,4.0,303,"Tablet with Lightweight, Retina Display",True
+P0591,Amazon Tablet 437,Tablets,Amazon,974.96,4.4,307,"Tablet with Stylus Support, Retina Display, Long Battery",True
+P0592,Samsung Tablet 636,Tablets,Samsung,412.65,4.1,345,"Tablet with Lightweight, Retina Display",True
+P0593,Microsoft Tablet 836,Tablets,Microsoft,207.64,4.0,439,"Tablet with Stylus Support, Lightweight",True
+P0594,Apple Tablet 523,Tablets,Apple,800.62,4.7,87,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0595,Apple Tablet 726,Tablets,Apple,261.81,4.0,128,"Tablet with Stylus Support, Long Battery, Retina Display",True
+P0596,Microsoft Tablet 237,Tablets,Microsoft,217.55,4.2,261,"Tablet with Long Battery, Retina Display, Stylus Support",False
+P0597,Samsung Tablet 518,Tablets,Samsung,289.22,3.8,123,"Tablet with Long Battery, Stylus Support",True
+P0598,Samsung Tablet 549,Tablets,Samsung,206.22,4.3,228,"Tablet with Long Battery, Stylus Support, Retina Display",False
+P0599,Apple Tablet 837,Tablets,Apple,666.74,4.7,276,"Tablet with Lightweight, Long Battery, Retina Display",True
+P0600,Amazon Tablet 998,Tablets,Amazon,538.37,4.2,30,"Tablet with Lightweight, Long Battery",False
+P0601,Lenovo Tablet 294,Tablets,Lenovo,800.39,4.5,406,"Tablet with Lightweight, Stylus Support, Long Battery",True
+P0602,Amazon Tablet 155,Tablets,Amazon,291.51,3.9,241,"Tablet with Lightweight, Long Battery",True
+P0603,Lenovo Tablet 812,Tablets,Lenovo,246.2,4.2,175,"Tablet with Lightweight, Stylus Support",False
+P0604,Apple Tablet 829,Tablets,Apple,302.05,4.4,138,"Tablet with Lightweight, Retina Display",True
+P0605,Samsung Tablet 216,Tablets,Samsung,760.62,4.0,382,"Tablet with Long Battery, Retina Display, Stylus Support",True
+P0606,Amazon Tablet 274,Tablets,Amazon,617.79,3.9,101,"Tablet with Stylus Support, Retina Display, Long Battery",True
+P0607,Amazon Tablet 556,Tablets,Amazon,411.85,4.1,113,"Tablet with Stylus Support, Retina Display, Long Battery",True
+P0608,Lenovo Tablet 609,Tablets,Lenovo,800.59,3.9,131,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0609,Lenovo Tablet 552,Tablets,Lenovo,710.55,4.2,461,"Tablet with Retina Display, Lightweight",True
+P0610,Lenovo Tablet 312,Tablets,Lenovo,684.34,4.4,38,"Tablet with Stylus Support, Retina Display",True
+P0611,Apple Tablet 691,Tablets,Apple,273.57,4.0,65,"Tablet with Long Battery, Retina Display, Lightweight",False
+P0612,Samsung Tablet 776,Tablets,Samsung,287.13,3.9,306,"Tablet with Lightweight, Long Battery",True
+P0613,Apple Tablet 477,Tablets,Apple,229.16,4.2,159,"Tablet with Retina Display, Stylus Support, Lightweight",False
+P0614,Samsung Tablet 437,Tablets,Samsung,253.72,4.2,323,"Tablet with Stylus Support, Long Battery, Retina Display",True
+P0615,Apple Tablet 641,Tablets,Apple,635.66,4.8,362,"Tablet with Lightweight, Long Battery",True
+P0616,Amazon Tablet 638,Tablets,Amazon,667.52,4.1,276,"Tablet with Stylus Support, Long Battery, Lightweight",False
+P0617,Amazon Tablet 338,Tablets,Amazon,836.78,4.4,22,"Tablet with Stylus Support, Retina Display, Long Battery",False
+P0618,Apple Tablet 730,Tablets,Apple,776.85,4.3,189,"Tablet with Lightweight, Retina Display, Stylus Support",True
+P0619,Apple Tablet 360,Tablets,Apple,694.53,4.6,269,"Tablet with Long Battery, Stylus Support",True
+P0620,Apple Tablet 505,Tablets,Apple,246.76,4.2,179,"Tablet with Stylus Support, Retina Display",True
+P0621,Amazon Tablet 761,Tablets,Amazon,928.74,4.4,331,"Tablet with Lightweight, Retina Display",False
+P0622,Lenovo Tablet 933,Tablets,Lenovo,911.54,4.2,299,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0623,Lenovo Tablet 801,Tablets,Lenovo,605.5,4.0,153,"Tablet with Long Battery, Retina Display, Lightweight",True
+P0624,Microsoft Tablet 962,Tablets,Microsoft,986.08,4.3,314,"Tablet with Lightweight, Retina Display",True
+P0625,Microsoft Tablet 132,Tablets,Microsoft,749.48,4.1,459,"Tablet with Lightweight, Retina Display, Stylus Support",True
+P0626,Microsoft Tablet 321,Tablets,Microsoft,534.12,4.3,411,"Tablet with Stylus Support, Retina Display, Lightweight",True
+P0627,Samsung Tablet 125,Tablets,Samsung,926.35,4.2,482,"Tablet with Stylus Support, Retina Display, Lightweight",False
+P0628,Lenovo Tablet 887,Tablets,Lenovo,413.8,3.9,380,"Tablet with Stylus Support, Retina Display",True
+P0629,Amazon Tablet 218,Tablets,Amazon,479.45,4.2,361,"Tablet with Long Battery, Retina Display",True
+P0630,Microsoft Tablet 633,Tablets,Microsoft,546.84,3.7,337,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0631,Microsoft Tablet 645,Tablets,Microsoft,320.47,3.9,149,"Tablet with Lightweight, Long Battery, Retina Display",True
+P0632,Samsung Tablet 737,Tablets,Samsung,382.59,3.7,189,"Tablet with Stylus Support, Long Battery",True
+P0633,Microsoft Tablet 390,Tablets,Microsoft,270.32,4.1,169,"Tablet with Stylus Support, Retina Display",True
+P0634,Lenovo Tablet 582,Tablets,Lenovo,527.1,3.8,37,"Tablet with Retina Display, Stylus Support",True
+P0635,Amazon Tablet 706,Tablets,Amazon,483.13,4.1,428,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0636,Lenovo Tablet 882,Tablets,Lenovo,216.76,4.3,59,"Tablet with Stylus Support, Retina Display, Lightweight",False
+P0637,Microsoft Tablet 576,Tablets,Microsoft,731.81,4.3,450,"Tablet with Stylus Support, Retina Display, Long Battery",True
+P0638,Microsoft Tablet 781,Tablets,Microsoft,483.27,4.1,25,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0639,Amazon Tablet 966,Tablets,Amazon,245.95,4.0,319,"Tablet with Long Battery, Stylus Support",True
+P0640,Lenovo Tablet 915,Tablets,Lenovo,237.49,4.2,342,"Tablet with Long Battery, Lightweight",True
+P0641,Microsoft Tablet 523,Tablets,Microsoft,602.83,4.1,91,"Tablet with Stylus Support, Long Battery",False
+P0642,Amazon Tablet 810,Tablets,Amazon,206.15,3.8,288,"Tablet with Lightweight, Long Battery, Stylus Support",True
+P0643,Samsung Tablet 828,Tablets,Samsung,713.22,3.9,176,"Tablet with Retina Display, Long Battery, Stylus Support",True
+P0644,Amazon Tablet 171,Tablets,Amazon,299.75,4.3,263,"Tablet with Lightweight, Stylus Support",True
+P0645,Apple Tablet 694,Tablets,Apple,334.97,4.1,86,"Tablet with Stylus Support, Long Battery",False
+P0646,Lenovo Tablet 557,Tablets,Lenovo,397.78,4.1,459,"Tablet with Stylus Support, Long Battery",True
+P0647,Microsoft Tablet 411,Tablets,Microsoft,634.73,4.4,323,"Tablet with Long Battery, Retina Display, Lightweight",False
+P0648,Samsung Tablet 662,Tablets,Samsung,874.63,3.9,296,"Tablet with Retina Display, Long Battery",True
+P0649,Apple Tablet 340,Tablets,Apple,882.06,4.7,374,"Tablet with Lightweight, Long Battery, Stylus Support",False
+P0650,Amazon Tablet 778,Tablets,Amazon,474.33,4.0,106,"Tablet with Lightweight, Retina Display",False
+P0651,Microsoft Tablet 993,Tablets,Microsoft,863.97,4.0,46,"Tablet with Stylus Support, Retina Display",True
+P0652,Samsung Tablet 547,Tablets,Samsung,763.14,4.2,338,"Tablet with Retina Display, Lightweight",False
+P0653,Amazon Tablet 535,Tablets,Amazon,909.55,4.3,227,"Tablet with Lightweight, Long Battery",False
+P0654,Amazon Tablet 719,Tablets,Amazon,452.01,3.8,131,"Tablet with Lightweight, Long Battery",True
+P0655,Amazon Tablet 134,Tablets,Amazon,937.58,4.2,198,"Tablet with Lightweight, Long Battery",True
+P0656,Lenovo Tablet 245,Tablets,Lenovo,559.3,4.1,277,"Tablet with Lightweight, Long Battery, Retina Display",True
+P0657,Samsung Tablet 784,Tablets,Samsung,551.58,4.1,37,"Tablet with Long Battery, Lightweight",True
+P0658,Lenovo Tablet 624,Tablets,Lenovo,811.75,4.2,418,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0659,Microsoft Tablet 711,Tablets,Microsoft,292.38,4.1,306,"Tablet with Long Battery, Retina Display, Stylus Support",True
+P0660,Lenovo Tablet 928,Tablets,Lenovo,193.88,4.3,52,"Tablet with Long Battery, Stylus Support",True
+P0661,Lenovo Tablet 358,Tablets,Lenovo,215.33,4.2,449,"Tablet with Long Battery, Stylus Support",True
+P0662,Apple Tablet 705,Tablets,Apple,780.21,4.6,423,"Tablet with Lightweight, Stylus Support",True
+P0663,Microsoft Tablet 285,Tablets,Microsoft,815.15,4.0,84,"Tablet with Long Battery, Retina Display",True
+P0664,Amazon Tablet 492,Tablets,Amazon,789.85,4.1,336,"Tablet with Lightweight, Long Battery",True
+P0665,Samsung Tablet 155,Tablets,Samsung,641.09,4.4,247,"Tablet with Retina Display, Lightweight, Long Battery",False
+P0666,Amazon Tablet 870,Tablets,Amazon,406.16,4.1,371,"Tablet with Lightweight, Long Battery",False
+P0667,Amazon Tablet 545,Tablets,Amazon,373.23,4.0,205,"Tablet with Long Battery, Stylus Support",True
+P0668,Lenovo Tablet 644,Tablets,Lenovo,730.44,3.9,181,"Tablet with Lightweight, Long Battery, Stylus Support",True
+P0669,Microsoft Tablet 698,Tablets,Microsoft,831.97,4.1,385,"Tablet with Lightweight, Long Battery, Retina Display",True
+P0670,Lenovo Tablet 284,Tablets,Lenovo,436.8,4.1,435,"Tablet with Retina Display, Long Battery, Lightweight",True
+P0671,Apple Tablet 801,Tablets,Apple,499.56,4.3,138,"Tablet with Long Battery, Retina Display, Stylus Support",True
+P0672,Apple Tablet 708,Tablets,Apple,170.15,4.1,500,"Tablet with Retina Display, Long Battery",True
+P0673,Apple Tablet 772,Tablets,Apple,877.97,4.3,104,"Tablet with Retina Display, Long Battery",True
+P0674,Microsoft Tablet 754,Tablets,Microsoft,546.91,4.3,141,"Tablet with Long Battery, Stylus Support, Lightweight",True
+P0675,Apple Tablet 497,Tablets,Apple,385.69,4.0,101,"Tablet with Retina Display, Stylus Support, Long Battery",False
+P0676,Apple Tablet 724,Tablets,Apple,567.96,4.6,65,"Tablet with Stylus Support, Long Battery, Lightweight",True
+P0677,Lenovo Tablet 758,Tablets,Lenovo,803.4,4.0,142,"Tablet with Lightweight, Long Battery",True
+P0678,Apple Tablet 356,Tablets,Apple,211.98,4.3,344,"Tablet with Retina Display, Stylus Support, Lightweight",True
+P0679,Apple Tablet 816,Tablets,Apple,714.91,4.4,273,"Tablet with Lightweight, Long Battery, Retina Display",False
+P0680,Amazon Tablet 899,Tablets,Amazon,520.65,4.2,206,"Tablet with Stylus Support, Retina Display",False
+P0681,Apple Tablet 467,Tablets,Apple,632.16,4.8,333,"Tablet with Long Battery, Stylus Support, Retina Display",True
+P0682,Microsoft Tablet 182,Tablets,Microsoft,604.43,4.5,100,"Tablet with Long Battery, Lightweight, Retina Display",True
+P0683,Amazon Tablet 499,Tablets,Amazon,711.62,4.1,53,"Tablet with Long Battery, Stylus Support",False
+P0684,Samsung Tablet 837,Tablets,Samsung,268.95,3.8,42,"Tablet with Lightweight, Stylus Support",True
+P0685,Amazon Tablet 560,Tablets,Amazon,603.85,4.4,38,"Tablet with Retina Display, Stylus Support",True
+P0686,Apple Tablet 769,Tablets,Apple,494.68,4.1,483,"Tablet with Stylus Support, Long Battery, Retina Display",True
+P0687,Apple Tablet 119,Tablets,Apple,775.14,4.5,17,"Tablet with Retina Display, Lightweight, Long Battery",True
+P0688,Apple Tablet 199,Tablets,Apple,918.96,4.7,428,"Tablet with Stylus Support, Long Battery, Retina Display",True
+P0689,Apple Tablet 325,Tablets,Apple,572.57,4.5,182,"Tablet with Stylus Support, Lightweight",False
+P0690,Microsoft Tablet 658,Tablets,Microsoft,252.68,4.1,401,"Tablet with Long Battery, Retina Display",True
+P0691,Lenovo Tablet 380,Tablets,Lenovo,297.43,3.7,366,"Tablet with Lightweight, Retina Display",True
+P0692,Lenovo Tablet 695,Tablets,Lenovo,290.26,3.8,415,"Tablet with Stylus Support, Retina Display",False
+P0693,Samsung Tablet 106,Tablets,Samsung,163.29,4.0,371,"Tablet with Stylus Support, Retina Display",True
+P0694,Amazon Tablet 587,Tablets,Amazon,739.48,4.4,337,"Tablet with Stylus Support, Retina Display",True
+P0695,Fitbit Smartwatche 725,Smartwatches,Fitbit,388.42,4.5,265,"Smartwatche with GPS, Water Resistant",True
+P0696,Garmin Smartwatche 341,Smartwatches,Garmin,343.5,3.9,58,"Smartwatche with Heart Rate, Water Resistant",True
+P0697,Fossil Smartwatche 741,Smartwatches,Fossil,455.28,4.4,109,"Smartwatche with Water Resistant, Heart Rate",True
+P0698,Samsung Smartwatche 585,Smartwatches,Samsung,579.67,4.7,37,"Smartwatche with GPS, Heart Rate, Water Resistant",True
+P0699,Garmin Smartwatche 731,Smartwatches,Garmin,246.71,4.1,483,"Smartwatche with Heart Rate, Sleep Tracking, Water Resistant",True
+P0700,Samsung Smartwatche 218,Smartwatches,Samsung,649.84,4.4,237,"Smartwatche with GPS, Water Resistant",True
+P0701,Fitbit Smartwatche 433,Smartwatches,Fitbit,239.13,4.3,126,"Smartwatche with Heart Rate, GPS",True
+P0702,Samsung Smartwatche 484,Smartwatches,Samsung,616.42,4.6,309,"Smartwatche with Heart Rate, GPS",False
+P0703,Apple Smartwatche 724,Smartwatches,Apple,723.34,4.5,79,"Smartwatche with GPS, Sleep Tracking, Water Resistant",False
+P0704,Samsung Smartwatche 307,Smartwatches,Samsung,542.41,4.7,153,"Smartwatche with GPS, Heart Rate, Water Resistant",True
+P0705,Apple Smartwatche 275,Smartwatches,Apple,696.16,4.7,414,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0706,Fossil Smartwatche 188,Smartwatches,Fossil,779.1,4.6,438,"Smartwatche with Sleep Tracking, Heart Rate, GPS",False
+P0707,Garmin Smartwatche 993,Smartwatches,Garmin,110.15,4.2,232,"Smartwatche with GPS, Sleep Tracking",True
+P0708,Fossil Smartwatche 105,Smartwatches,Fossil,762.38,4.6,385,"Smartwatche with Heart Rate, Sleep Tracking, GPS",True
+P0709,Fitbit Smartwatche 917,Smartwatches,Fitbit,471.79,4.4,133,"Smartwatche with Sleep Tracking, GPS",True
+P0710,Fossil Smartwatche 516,Smartwatches,Fossil,627.16,4.5,161,"Smartwatche with GPS, Sleep Tracking",True
+P0711,Apple Smartwatche 265,Smartwatches,Apple,111.15,4.6,405,"Smartwatche with Heart Rate, GPS, Water Resistant",True
+P0712,Fitbit Smartwatche 741,Smartwatches,Fitbit,229.46,4.4,207,"Smartwatche with Heart Rate, Water Resistant, Sleep Tracking",True
+P0713,Fossil Smartwatche 376,Smartwatches,Fossil,122.9,4.2,460,"Smartwatche with Heart Rate, Water Resistant",True
+P0714,Apple Smartwatche 472,Smartwatches,Apple,460.32,4.9,197,"Smartwatche with Heart Rate, GPS",False
+P0715,Fossil Smartwatche 763,Smartwatches,Fossil,128.61,4.1,181,"Smartwatche with GPS, Heart Rate",True
+P0716,Fossil Smartwatche 870,Smartwatches,Fossil,179.49,4.2,190,"Smartwatche with GPS, Sleep Tracking",True
+P0717,Fossil Smartwatche 164,Smartwatches,Fossil,576.16,4.3,266,"Smartwatche with Water Resistant, GPS, Sleep Tracking",True
+P0718,Fitbit Smartwatche 645,Smartwatches,Fitbit,596.88,4.5,419,"Smartwatche with Sleep Tracking, Water Resistant, GPS",True
+P0719,Samsung Smartwatche 182,Smartwatches,Samsung,724.33,4.4,65,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0720,Garmin Smartwatche 254,Smartwatches,Garmin,178.42,4.0,223,"Smartwatche with Heart Rate, GPS",True
+P0721,Fitbit Smartwatche 760,Smartwatches,Fitbit,342.69,4.2,42,"Smartwatche with Water Resistant, Heart Rate",True
+P0722,Samsung Smartwatche 443,Smartwatches,Samsung,684.46,4.4,258,"Smartwatche with Water Resistant, Sleep Tracking, GPS",False
+P0723,Fitbit Smartwatche 908,Smartwatches,Fitbit,312.86,4.0,257,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0724,Garmin Smartwatche 461,Smartwatches,Garmin,638.82,4.1,374,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",True
+P0725,Samsung Smartwatche 809,Smartwatches,Samsung,781.24,4.6,69,"Smartwatche with GPS, Heart Rate",True
+P0726,Garmin Smartwatche 478,Smartwatches,Garmin,502.17,4.4,372,"Smartwatche with GPS, Water Resistant",True
+P0727,Garmin Smartwatche 559,Smartwatches,Garmin,784.62,4.2,481,"Smartwatche with Water Resistant, Heart Rate",True
+P0728,Fitbit Smartwatche 569,Smartwatches,Fitbit,751.75,4.6,341,"Smartwatche with GPS, Heart Rate, Sleep Tracking",True
+P0729,Fitbit Smartwatche 872,Smartwatches,Fitbit,727.18,4.7,362,"Smartwatche with Sleep Tracking, GPS",True
+P0730,Fitbit Smartwatche 664,Smartwatches,Fitbit,730.12,4.2,215,"Smartwatche with Water Resistant, Heart Rate",True
+P0731,Fitbit Smartwatche 722,Smartwatches,Fitbit,350.18,4.1,110,"Smartwatche with GPS, Sleep Tracking",True
+P0732,Apple Smartwatche 787,Smartwatches,Apple,476.89,4.7,261,"Smartwatche with Sleep Tracking, Heart Rate",True
+P0733,Fossil Smartwatche 782,Smartwatches,Fossil,523.55,4.7,199,"Smartwatche with Sleep Tracking, Heart Rate, GPS",False
+P0734,Garmin Smartwatche 415,Smartwatches,Garmin,108.53,4.1,389,"Smartwatche with Heart Rate, Sleep Tracking, GPS",False
+P0735,Fitbit Smartwatche 534,Smartwatches,Fitbit,302.04,4.4,83,"Smartwatche with GPS, Water Resistant, Heart Rate",True
+P0736,Garmin Smartwatche 443,Smartwatches,Garmin,432.23,4.4,13,"Smartwatche with Sleep Tracking, Heart Rate",False
+P0737,Garmin Smartwatche 827,Smartwatches,Garmin,390.16,4.2,436,"Smartwatche with GPS, Heart Rate",False
+P0738,Garmin Smartwatche 946,Smartwatches,Garmin,487.71,4.1,124,"Smartwatche with Water Resistant, GPS, Sleep Tracking",True
+P0739,Apple Smartwatche 755,Smartwatches,Apple,207.82,4.4,223,"Smartwatche with Heart Rate, Water Resistant, GPS",True
+P0740,Fitbit Smartwatche 129,Smartwatches,Fitbit,734.76,4.5,44,"Smartwatche with Water Resistant, GPS",True
+P0741,Fossil Smartwatche 364,Smartwatches,Fossil,436.34,4.2,442,"Smartwatche with Heart Rate, GPS, Sleep Tracking",True
+P0742,Samsung Smartwatche 572,Smartwatches,Samsung,507.16,4.2,37,"Smartwatche with Water Resistant, Heart Rate",True
+P0743,Garmin Smartwatche 464,Smartwatches,Garmin,393.66,4.4,281,"Smartwatche with Water Resistant, GPS",True
+P0744,Fossil Smartwatche 883,Smartwatches,Fossil,235.67,4.3,175,"Smartwatche with GPS, Water Resistant",True
+P0745,Garmin Smartwatche 471,Smartwatches,Garmin,290.02,4.3,16,"Smartwatche with Water Resistant, Heart Rate",True
+P0746,Fossil Smartwatche 521,Smartwatches,Fossil,296.99,4.4,89,"Smartwatche with GPS, Heart Rate, Water Resistant",True
+P0747,Samsung Smartwatche 806,Smartwatches,Samsung,656.57,4.4,479,"Smartwatche with Sleep Tracking, GPS",True
+P0748,Apple Smartwatche 591,Smartwatches,Apple,673.19,5.0,81,"Smartwatche with Water Resistant, Sleep Tracking, GPS",False
+P0749,Fossil Smartwatche 276,Smartwatches,Fossil,466.18,4.7,123,"Smartwatche with Heart Rate, Water Resistant, Sleep Tracking",True
+P0750,Samsung Smartwatche 314,Smartwatches,Samsung,581.63,4.3,363,"Smartwatche with Heart Rate, GPS",True
+P0751,Apple Smartwatche 541,Smartwatches,Apple,113.16,4.5,26,"Smartwatche with GPS, Heart Rate",True
+P0752,Fitbit Smartwatche 167,Smartwatches,Fitbit,183.25,4.1,481,"Smartwatche with Heart Rate, Sleep Tracking, Water Resistant",True
+P0753,Fossil Smartwatche 459,Smartwatches,Fossil,730.82,4.2,443,"Smartwatche with Heart Rate, Sleep Tracking",True
+P0754,Fossil Smartwatche 612,Smartwatches,Fossil,343.49,4.0,429,"Smartwatche with Heart Rate, Sleep Tracking",True
+P0755,Fossil Smartwatche 388,Smartwatches,Fossil,251.9,4.0,60,"Smartwatche with Heart Rate, Water Resistant",True
+P0756,Fossil Smartwatche 814,Smartwatches,Fossil,695.91,4.4,500,"Smartwatche with Sleep Tracking, Water Resistant",True
+P0757,Samsung Smartwatche 534,Smartwatches,Samsung,684.32,4.7,67,"Smartwatche with GPS, Sleep Tracking",True
+P0758,Apple Smartwatche 607,Smartwatches,Apple,426.13,4.5,52,"Smartwatche with Water Resistant, Sleep Tracking, Heart Rate",True
+P0759,Fitbit Smartwatche 714,Smartwatches,Fitbit,181.01,4.1,158,"Smartwatche with Sleep Tracking, Heart Rate, GPS",False
+P0760,Samsung Smartwatche 921,Smartwatches,Samsung,699.74,4.6,355,"Smartwatche with Water Resistant, Heart Rate, Sleep Tracking",False
+P0761,Apple Smartwatche 792,Smartwatches,Apple,377.46,4.5,212,"Smartwatche with Heart Rate, Sleep Tracking",False
+P0762,Fossil Smartwatche 272,Smartwatches,Fossil,784.3,4.5,183,"Smartwatche with Water Resistant, Heart Rate",True
+P0763,Fossil Smartwatche 338,Smartwatches,Fossil,690.82,4.3,397,"Smartwatche with Sleep Tracking, GPS, Water Resistant",False
+P0764,Garmin Smartwatche 514,Smartwatches,Garmin,433.08,4.3,65,"Smartwatche with Water Resistant, Heart Rate, GPS",True
+P0765,Garmin Smartwatche 237,Smartwatches,Garmin,442.54,4.0,37,"Smartwatche with Heart Rate, Water Resistant",True
+P0766,Fitbit Smartwatche 491,Smartwatches,Fitbit,574.68,4.7,399,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0767,Fossil Smartwatche 306,Smartwatches,Fossil,637.3,4.6,287,"Smartwatche with Sleep Tracking, GPS, Water Resistant",True
+P0768,Fossil Smartwatche 132,Smartwatches,Fossil,482.63,4.7,171,"Smartwatche with Heart Rate, GPS, Water Resistant",False
+P0769,Fitbit Smartwatche 670,Smartwatches,Fitbit,421.76,3.9,78,"Smartwatche with GPS, Sleep Tracking, Water Resistant",True
+P0770,Fitbit Smartwatche 791,Smartwatches,Fitbit,441.22,4.0,269,"Smartwatche with Sleep Tracking, GPS, Heart Rate",True
+P0771,Fitbit Smartwatche 486,Smartwatches,Fitbit,284.37,4.3,24,"Smartwatche with Water Resistant, GPS, Heart Rate",True
+P0772,Samsung Smartwatche 859,Smartwatches,Samsung,685.85,4.3,59,"Smartwatche with Water Resistant, GPS",False
+P0773,Garmin Smartwatche 157,Smartwatches,Garmin,794.36,4.3,341,"Smartwatche with GPS, Heart Rate",True
+P0774,Fossil Smartwatche 989,Smartwatches,Fossil,159.46,4.3,20,"Smartwatche with Heart Rate, GPS, Sleep Tracking",True
+P0775,Apple Smartwatche 681,Smartwatches,Apple,422.64,4.7,311,"Smartwatche with Water Resistant, Heart Rate, GPS",True
+P0776,Garmin Smartwatche 686,Smartwatches,Garmin,364.42,4.1,363,"Smartwatche with Sleep Tracking, Heart Rate",True
+P0777,Garmin Smartwatche 783,Smartwatches,Garmin,447.71,4.4,196,"Smartwatche with GPS, Water Resistant, Sleep Tracking",False
+P0778,Samsung Smartwatche 906,Smartwatches,Samsung,447.87,4.4,145,"Smartwatche with GPS, Sleep Tracking",True
+P0779,Garmin Smartwatche 331,Smartwatches,Garmin,797.36,4.3,182,"Smartwatche with Heart Rate, Water Resistant",True
+P0780,Apple Smartwatche 537,Smartwatches,Apple,496.5,4.7,343,"Smartwatche with Water Resistant, Heart Rate",True
+P0781,Fossil Smartwatche 652,Smartwatches,Fossil,662.89,4.4,138,"Smartwatche with GPS, Sleep Tracking, Water Resistant",False
+P0782,Fossil Smartwatche 820,Smartwatches,Fossil,226.42,3.9,348,"Smartwatche with Sleep Tracking, Heart Rate",False
+P0783,Garmin Smartwatche 729,Smartwatches,Garmin,756.01,4.4,196,"Smartwatche with Heart Rate, Water Resistant, Sleep Tracking",False
+P0784,Samsung Smartwatche 883,Smartwatches,Samsung,268.26,4.3,450,"Smartwatche with Sleep Tracking, GPS, Water Resistant",True
+P0785,Samsung Smartwatche 393,Smartwatches,Samsung,692.18,4.3,317,"Smartwatche with Water Resistant, Sleep Tracking",True
+P0786,Fitbit Smartwatche 128,Smartwatches,Fitbit,266.94,4.0,258,"Smartwatche with Water Resistant, GPS",False
+P0787,Fitbit Smartwatche 263,Smartwatches,Fitbit,552.85,4.1,414,"Smartwatche with GPS, Heart Rate, Sleep Tracking",True
+P0788,Fossil Smartwatche 839,Smartwatches,Fossil,223.19,4.4,170,"Smartwatche with Heart Rate, Sleep Tracking, Water Resistant",True
+P0789,Apple Smartwatche 472,Smartwatches,Apple,730.4,4.6,441,"Smartwatche with Sleep Tracking, Water Resistant",True
+P0790,Samsung Smartwatche 223,Smartwatches,Samsung,178.35,4.3,317,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",True
+P0791,Garmin Smartwatche 499,Smartwatches,Garmin,330.5,4.3,83,"Smartwatche with Sleep Tracking, Heart Rate",True
+P0792,Samsung Smartwatche 518,Smartwatches,Samsung,249.88,4.1,368,"Smartwatche with Heart Rate, GPS, Water Resistant",True
+P0793,Garmin Smartwatche 352,Smartwatches,Garmin,482.02,4.4,376,"Smartwatche with GPS, Sleep Tracking, Water Resistant",True
+P0794,Garmin Smartwatche 720,Smartwatches,Garmin,114.75,4.5,479,"Smartwatche with Heart Rate, Water Resistant",True
+P0795,Garmin Smartwatche 817,Smartwatches,Garmin,486.91,4.3,449,"Smartwatche with Heart Rate, Water Resistant, Sleep Tracking",False
+P0796,Fitbit Smartwatche 361,Smartwatches,Fitbit,105.51,4.5,117,"Smartwatche with Heart Rate, Sleep Tracking, GPS",True
+P0797,Fitbit Smartwatche 885,Smartwatches,Fitbit,541.95,4.6,431,"Smartwatche with Heart Rate, GPS, Sleep Tracking",False
+P0798,Fitbit Smartwatche 440,Smartwatches,Fitbit,615.86,4.7,269,"Smartwatche with Heart Rate, Sleep Tracking, GPS",True
+P0799,Garmin Smartwatche 660,Smartwatches,Garmin,394.61,4.3,400,"Smartwatche with Sleep Tracking, Water Resistant, Heart Rate",True
+P0800,Samsung Smartwatche 239,Smartwatches,Samsung,541.11,4.6,331,"Smartwatche with Sleep Tracking, Heart Rate",True
+P0801,Garmin Smartwatche 355,Smartwatches,Garmin,503.07,4.2,241,"Smartwatche with Sleep Tracking, GPS",False
+P0802,Samsung Smartwatche 946,Smartwatches,Samsung,282.48,4.3,222,"Smartwatche with Water Resistant, Heart Rate, Sleep Tracking",True
+P0803,Samsung Smartwatche 954,Smartwatches,Samsung,375.45,4.1,482,"Smartwatche with Heart Rate, Sleep Tracking",True
+P0804,Apple Smartwatche 818,Smartwatches,Apple,781.89,4.5,326,"Smartwatche with Heart Rate, GPS",False
+P0805,Fossil Smartwatche 476,Smartwatches,Fossil,282.11,4.0,377,"Smartwatche with Heart Rate, Sleep Tracking",False
+P0806,Fitbit Smartwatche 329,Smartwatches,Fitbit,679.08,4.4,157,"Smartwatche with GPS, Sleep Tracking",False
+P0807,Fitbit Smartwatche 714,Smartwatches,Fitbit,191.14,4.4,356,"Smartwatche with Water Resistant, Sleep Tracking",True
+P0808,Fitbit Smartwatche 129,Smartwatches,Fitbit,226.26,4.4,474,"Smartwatche with Water Resistant, Heart Rate, GPS",True
+P0809,Garmin Smartwatche 187,Smartwatches,Garmin,508.03,4.5,456,"Smartwatche with Sleep Tracking, Heart Rate",True
+P0810,Fitbit Smartwatche 825,Smartwatches,Fitbit,580.8,4.5,295,"Smartwatche with Water Resistant, Heart Rate, Sleep Tracking",True
+P0811,Apple Smartwatche 462,Smartwatches,Apple,333.0,4.3,268,"Smartwatche with Heart Rate, GPS",False
+P0812,Garmin Smartwatche 235,Smartwatches,Garmin,784.27,4.5,96,"Smartwatche with GPS, Sleep Tracking",False
+P0813,Garmin Smartwatche 424,Smartwatches,Garmin,714.53,4.2,170,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0814,Samsung Smartwatche 387,Smartwatches,Samsung,449.45,4.5,323,"Smartwatche with Sleep Tracking, GPS, Water Resistant",True
+P0815,Fossil Smartwatche 423,Smartwatches,Fossil,319.11,4.4,37,"Smartwatche with GPS, Water Resistant, Sleep Tracking",True
+P0816,Samsung Smartwatche 581,Smartwatches,Samsung,138.2,4.0,233,"Smartwatche with GPS, Water Resistant, Sleep Tracking",True
+P0817,Fitbit Smartwatche 826,Smartwatches,Fitbit,128.55,4.1,443,"Smartwatche with Sleep Tracking, GPS, Heart Rate",True
+P0818,Apple Smartwatche 390,Smartwatches,Apple,344.72,4.3,270,"Smartwatche with GPS, Water Resistant",True
+P0819,Fossil Smartwatche 697,Smartwatches,Fossil,723.63,4.5,481,"Smartwatche with GPS, Sleep Tracking",True
+P0820,Samsung Smartwatche 436,Smartwatches,Samsung,637.78,4.5,358,"Smartwatche with Water Resistant, Sleep Tracking",True
+P0821,Fitbit Smartwatche 208,Smartwatches,Fitbit,361.49,4.5,245,"Smartwatche with GPS, Heart Rate, Water Resistant",False
+P0822,Fitbit Smartwatche 773,Smartwatches,Fitbit,539.85,4.3,345,"Smartwatche with Water Resistant, Heart Rate",False
+P0823,Garmin Smartwatche 916,Smartwatches,Garmin,763.19,4.7,420,"Smartwatche with GPS, Heart Rate",True
+P0824,Garmin Smartwatche 660,Smartwatches,Garmin,658.7,4.5,101,"Smartwatche with Heart Rate, GPS, Water Resistant",True
+P0825,Fitbit Smartwatche 266,Smartwatches,Fitbit,162.43,4.4,71,"Smartwatche with Sleep Tracking, GPS, Heart Rate",True
+P0826,Fitbit Smartwatche 417,Smartwatches,Fitbit,660.77,4.5,59,"Smartwatche with Water Resistant, Sleep Tracking",True
+P0827,Fossil Smartwatche 497,Smartwatches,Fossil,239.91,4.2,56,"Smartwatche with Water Resistant, Sleep Tracking, GPS",False
+P0828,Garmin Smartwatche 536,Smartwatches,Garmin,529.71,4.4,184,"Smartwatche with Heart Rate, Water Resistant",False
+P0829,Samsung Smartwatche 607,Smartwatches,Samsung,553.33,4.5,233,"Smartwatche with Water Resistant, GPS",True
+P0830,Fitbit Smartwatche 800,Smartwatches,Fitbit,310.28,4.5,161,"Smartwatche with GPS, Water Resistant, Sleep Tracking",True
+P0831,Fossil Smartwatche 210,Smartwatches,Fossil,153.57,3.9,348,"Smartwatche with Sleep Tracking, Heart Rate, GPS",True
+P0832,Garmin Smartwatche 615,Smartwatches,Garmin,278.4,3.9,348,"Smartwatche with Heart Rate, Water Resistant",False
+P0833,Samsung Smartwatche 146,Smartwatches,Samsung,650.32,4.6,162,"Smartwatche with Sleep Tracking, Water Resistant",True
+P0834,Fossil Smartwatche 560,Smartwatches,Fossil,606.87,4.6,104,"Smartwatche with Water Resistant, Heart Rate, Sleep Tracking",True
+P0835,Fossil Smartwatche 544,Smartwatches,Fossil,281.52,4.3,69,"Smartwatche with Heart Rate, GPS",True
+P0836,Samsung Smartwatche 514,Smartwatches,Samsung,559.06,4.4,363,"Smartwatche with Water Resistant, Sleep Tracking, GPS",False
+P0837,Garmin Smartwatche 295,Smartwatches,Garmin,161.34,4.0,106,"Smartwatche with Heart Rate, Water Resistant",True
+P0838,Samsung Smartwatche 347,Smartwatches,Samsung,436.78,4.0,404,"Smartwatche with GPS, Heart Rate, Sleep Tracking",False
+P0839,Samsung Smartwatche 270,Smartwatches,Samsung,431.79,3.9,251,"Smartwatche with Sleep Tracking, GPS",True
+P0840,Fitbit Smartwatche 683,Smartwatches,Fitbit,509.66,4.2,62,"Smartwatche with Heart Rate, GPS, Sleep Tracking",False
+P0841,Fitbit Smartwatche 710,Smartwatches,Fitbit,694.03,4.5,258,"Smartwatche with Heart Rate, GPS, Water Resistant",False
+P0842,Samsung Smartwatche 532,Smartwatches,Samsung,600.0,4.4,465,"Smartwatche with Heart Rate, GPS, Water Resistant",False
+P0843,Apple Smartwatche 455,Smartwatches,Apple,446.35,4.8,157,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",True
+P0844,Fitbit Smartwatche 324,Smartwatches,Fitbit,340.69,4.0,380,"Smartwatche with Sleep Tracking, Heart Rate, GPS",False
+P0845,Fitbit Smartwatche 852,Smartwatches,Fitbit,683.16,4.5,154,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",True
+P0846,Fitbit Smartwatche 720,Smartwatches,Fitbit,190.37,4.0,165,"Smartwatche with Heart Rate, GPS, Water Resistant",True
+P0847,Samsung Smartwatche 467,Smartwatches,Samsung,489.78,4.7,99,"Smartwatche with Water Resistant, Sleep Tracking, Heart Rate",True
+P0848,Apple Smartwatche 332,Smartwatches,Apple,336.41,4.3,142,"Smartwatche with GPS, Sleep Tracking",True
+P0849,Garmin Smartwatche 670,Smartwatches,Garmin,638.56,4.6,371,"Smartwatche with GPS, Water Resistant, Heart Rate",True
+P0850,Fitbit Smartwatche 873,Smartwatches,Fitbit,659.29,4.7,322,"Smartwatche with Heart Rate, Water Resistant",True
+P0851,Fossil Smartwatche 745,Smartwatches,Fossil,129.38,4.0,90,"Smartwatche with GPS, Sleep Tracking",True
+P0852,Fitbit Smartwatche 991,Smartwatches,Fitbit,633.38,4.4,196,"Smartwatche with GPS, Water Resistant",True
+P0853,Samsung Smartwatche 525,Smartwatches,Samsung,186.09,4.0,184,"Smartwatche with GPS, Sleep Tracking",True
+P0854,Fossil Smartwatche 832,Smartwatches,Fossil,219.88,4.1,87,"Smartwatche with Water Resistant, Sleep Tracking, Heart Rate",False
+P0855,Samsung Smartwatche 519,Smartwatches,Samsung,196.6,4.2,84,"Smartwatche with Water Resistant, Heart Rate, GPS",True
+P0856,Fossil Smartwatche 422,Smartwatches,Fossil,760.55,4.2,211,"Smartwatche with GPS, Sleep Tracking, Heart Rate",True
+P0857,Samsung Smartwatche 746,Smartwatches,Samsung,731.76,4.1,379,"Smartwatche with Sleep Tracking, GPS, Water Resistant",True
+P0858,Garmin Smartwatche 640,Smartwatches,Garmin,105.53,4.1,339,"Smartwatche with Sleep Tracking, GPS",True
+P0859,Fossil Smartwatche 552,Smartwatches,Fossil,537.05,4.5,53,"Smartwatche with Sleep Tracking, Heart Rate, GPS",True
+P0860,Fossil Smartwatche 857,Smartwatches,Fossil,334.15,4.3,57,"Smartwatche with Water Resistant, Heart Rate",True
+P0861,Fossil Smartwatche 123,Smartwatches,Fossil,338.5,4.3,436,"Smartwatche with Water Resistant, Heart Rate",True
+P0862,Fitbit Smartwatche 161,Smartwatches,Fitbit,790.87,4.2,73,"Smartwatche with Water Resistant, Sleep Tracking, GPS",True
+P0863,Apple Smartwatche 105,Smartwatches,Apple,414.12,4.5,189,"Smartwatche with Water Resistant, Heart Rate, Sleep Tracking",True
+P0864,Garmin Smartwatche 686,Smartwatches,Garmin,566.85,4.6,387,"Smartwatche with Sleep Tracking, Water Resistant",True
+P0865,Apple Smartwatche 942,Smartwatches,Apple,329.49,4.5,374,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",False
+P0866,Fitbit Smartwatche 233,Smartwatches,Fitbit,157.36,3.9,199,"Smartwatche with GPS, Sleep Tracking, Heart Rate",False
+P0867,Fossil Smartwatche 992,Smartwatches,Fossil,491.28,4.6,235,"Smartwatche with Sleep Tracking, Water Resistant, GPS",False
+P0868,Fitbit Smartwatche 230,Smartwatches,Fitbit,676.67,4.2,365,"Smartwatche with Sleep Tracking, Heart Rate, Water Resistant",True
+P0869,Fitbit Smartwatche 672,Smartwatches,Fitbit,431.35,4.3,66,"Smartwatche with Heart Rate, Water Resistant, GPS",True
+P0870,Garmin Smartwatche 256,Smartwatches,Garmin,500.24,4.1,201,"Smartwatche with Water Resistant, GPS",True
+P0871,Garmin Smartwatche 245,Smartwatches,Garmin,440.15,4.4,120,"Smartwatche with Heart Rate, GPS, Water Resistant",True
+P0872,Fitbit Smartwatche 169,Smartwatches,Fitbit,101.46,4.2,303,"Smartwatche with Sleep Tracking, GPS",True
+P0873,Fossil Smartwatche 486,Smartwatches,Fossil,416.66,4.1,399,"Smartwatche with GPS, Heart Rate, Sleep Tracking",False
+P0874,Fitbit Smartwatche 191,Smartwatches,Fitbit,204.29,4.3,183,"Smartwatche with Sleep Tracking, Heart Rate, GPS",True
+P0875,Fitbit Smartwatche 986,Smartwatches,Fitbit,615.14,4.5,332,"Smartwatche with Heart Rate, Water Resistant",True
+P0876,Fossil Smartwatche 187,Smartwatches,Fossil,551.61,4.5,277,"Smartwatche with Heart Rate, Water Resistant",True
+P0877,Fitbit Smartwatche 774,Smartwatches,Fitbit,451.85,4.1,412,"Smartwatche with Heart Rate, GPS",True
+P0878,Samsung Stand,Accessories,Samsung,72.19,4.1,184,"Accessorie with Durable, Fast Charging, Compact",False
+P0879,Belkin Cable,Accessories,Belkin,68.09,4.1,287,"Accessorie with Durable, Compact, Universal",True
+P0880,Logitech Case,Accessories,Logitech,30.16,3.8,40,"Accessorie with Compact, Universal, Durable",True
+P0881,Belkin Charger,Accessories,Belkin,13.8,3.6,142,"Accessorie with Fast Charging, Compact, Universal",False
+P0882,Anker Adapter,Accessories,Anker,17.26,3.7,395,"Accessorie with Compact, Universal",False
+P0883,Anker Cable,Accessories,Anker,47.7,3.8,218,"Accessorie with Compact, Durable",True
+P0884,Anker Charger,Accessories,Anker,47.68,4.2,300,"Accessorie with Fast Charging, Compact",False
+P0885,Apple Case,Accessories,Apple,21.75,4.3,476,"Accessorie with Fast Charging, Durable, Compact",False
+P0886,Anker Adapter,Accessories,Anker,10.14,3.9,487,"Accessorie with Fast Charging, Durable, Universal",False
+P0887,Logitech Stand,Accessories,Logitech,93.7,4.3,92,"Accessorie with Universal, Durable",True
+P0888,Logitech Case,Accessories,Logitech,22.56,4.0,462,"Accessorie with Compact, Durable, Fast Charging",True
+P0889,Logitech Case,Accessories,Logitech,147.15,4.2,316,"Accessorie with Universal, Durable, Fast Charging",True
+P0890,Anker Adapter,Accessories,Anker,137.96,3.9,221,"Accessorie with Durable, Compact, Universal",False
+P0891,Apple Charger,Accessories,Apple,85.34,4.6,73,"Accessorie with Compact, Universal",True
+P0892,Apple Charger,Accessories,Apple,125.85,4.3,489,"Accessorie with Compact, Fast Charging",True
+P0893,Apple Stand,Accessories,Apple,11.31,4.3,423,"Accessorie with Fast Charging, Durable, Compact",True
+P0894,Belkin Stand,Accessories,Belkin,147.22,4.4,430,"Accessorie with Fast Charging, Durable, Universal",False
+P0895,Anker Case,Accessories,Anker,131.79,4.1,311,"Accessorie with Fast Charging, Durable",True
+P0896,Anker Case,Accessories,Anker,27.84,4.2,364,"Accessorie with Fast Charging, Universal, Durable",True
+P0897,Samsung Charger,Accessories,Samsung,133.63,3.8,72,"Accessorie with Compact, Fast Charging, Universal",False
+P0898,Apple Case,Accessories,Apple,60.61,4.4,282,"Accessorie with Universal, Fast Charging",False
+P0899,Logitech Adapter,Accessories,Logitech,10.72,3.7,226,"Accessorie with Fast Charging, Universal",True
+P0900,Belkin Charger,Accessories,Belkin,37.56,3.8,423,"Accessorie with Compact, Fast Charging",True
+P0901,Samsung Stand,Accessories,Samsung,121.61,4.4,132,"Accessorie with Durable, Fast Charging",True
+P0902,Anker Charger,Accessories,Anker,125.03,4.1,306,"Accessorie with Durable, Universal, Fast Charging",True
+P0903,Anker Stand,Accessories,Anker,146.43,4.4,480,"Accessorie with Fast Charging, Durable",False
+P0904,Anker Charger,Accessories,Anker,52.21,4.0,445,"Accessorie with Durable, Fast Charging",False
+P0905,Apple Adapter,Accessories,Apple,23.42,4.4,247,"Accessorie with Compact, Fast Charging",False
+P0906,Samsung Charger,Accessories,Samsung,96.69,4.0,65,"Accessorie with Universal, Compact, Durable",True
+P0907,Anker Case,Accessories,Anker,93.32,3.8,225,"Accessorie with Universal, Fast Charging",False
+P0908,Samsung Charger,Accessories,Samsung,72.25,3.7,309,"Accessorie with Fast Charging, Compact",False
+P0909,Samsung Adapter,Accessories,Samsung,144.36,4.3,168,"Accessorie with Fast Charging, Compact",True
+P0910,Logitech Case,Accessories,Logitech,61.64,3.6,429,"Accessorie with Fast Charging, Universal",True
+P0911,Apple Case,Accessories,Apple,58.13,4.5,351,"Accessorie with Universal, Durable",False
+P0912,Apple Adapter,Accessories,Apple,93.97,4.3,93,"Accessorie with Universal, Fast Charging, Compact",True
+P0913,Apple Case,Accessories,Apple,132.65,4.6,127,"Accessorie with Fast Charging, Universal",False
+P0914,Samsung Stand,Accessories,Samsung,39.84,3.9,432,"Accessorie with Fast Charging, Compact, Durable",True
+P0915,Logitech Charger,Accessories,Logitech,11.38,3.8,109,"Accessorie with Universal, Fast Charging",True
+P0916,Anker Case,Accessories,Anker,146.54,3.9,99,"Accessorie with Universal, Compact",True
+P0917,Samsung Stand,Accessories,Samsung,44.43,3.7,80,"Accessorie with Durable, Universal",False
+P0918,Anker Case,Accessories,Anker,57.37,3.7,491,"Accessorie with Universal, Compact, Durable",False
+P0919,Anker Case,Accessories,Anker,26.59,4.1,201,"Accessorie with Compact, Universal",True
+P0920,Samsung Adapter,Accessories,Samsung,70.14,4.0,177,"Accessorie with Universal, Durable",True
+P0921,Anker Adapter,Accessories,Anker,98.12,4.0,411,"Accessorie with Fast Charging, Universal, Durable",False
+P0922,Samsung Adapter,Accessories,Samsung,19.08,3.9,101,"Accessorie with Compact, Universal, Fast Charging",True
+P0923,Logitech Cable,Accessories,Logitech,83.57,4.1,116,"Accessorie with Compact, Universal, Durable",True
+P0924,Belkin Stand,Accessories,Belkin,73.29,3.7,488,"Accessorie with Compact, Universal, Durable",True
+P0925,Logitech Stand,Accessories,Logitech,87.08,3.9,248,"Accessorie with Universal, Durable, Compact",True
+P0926,Apple Cable,Accessories,Apple,73.16,4.2,101,"Accessorie with Universal, Fast Charging, Durable",False
+P0927,Belkin Stand,Accessories,Belkin,47.19,3.6,60,"Accessorie with Universal, Durable",True
+P0928,Anker Case,Accessories,Anker,60.43,3.9,107,"Accessorie with Universal, Fast Charging, Compact",True
+P0929,Samsung Stand,Accessories,Samsung,137.73,3.8,251,"Accessorie with Compact, Fast Charging, Durable",True
+P0930,Apple Cable,Accessories,Apple,41.86,4.3,426,"Accessorie with Compact, Universal",False
+P0931,Logitech Cable,Accessories,Logitech,120.87,4.0,446,"Accessorie with Fast Charging, Compact, Universal",True
+P0932,Logitech Charger,Accessories,Logitech,29.45,4.1,224,"Accessorie with Universal, Fast Charging, Durable",False
+P0933,Apple Stand,Accessories,Apple,116.8,4.5,88,"Accessorie with Durable, Compact",True
+P0934,Samsung Adapter,Accessories,Samsung,98.18,4.2,42,"Accessorie with Compact, Durable, Fast Charging",False
+P0935,Belkin Stand,Accessories,Belkin,76.47,3.8,355,"Accessorie with Fast Charging, Durable",True
+P0936,Anker Case,Accessories,Anker,125.71,4.2,155,"Accessorie with Durable, Fast Charging",True
+P0937,Belkin Charger,Accessories,Belkin,50.75,3.9,450,"Accessorie with Durable, Compact, Fast Charging",False
+P0938,Apple Cable,Accessories,Apple,31.98,4.0,76,"Accessorie with Durable, Fast Charging, Compact",True
+P0939,Logitech Case,Accessories,Logitech,70.51,4.0,151,"Accessorie with Fast Charging, Universal, Compact",True
+P0940,Anker Cable,Accessories,Anker,148.75,4.1,460,"Accessorie with Universal, Compact",False
+P0941,Apple Stand,Accessories,Apple,74.78,3.9,210,"Accessorie with Universal, Compact, Fast Charging",True
+P0942,Apple Cable,Accessories,Apple,44.88,4.4,367,"Accessorie with Compact, Universal, Durable",True
+P0943,Apple Case,Accessories,Apple,107.81,4.1,367,"Accessorie with Universal, Compact, Durable",True
+P0944,Apple Stand,Accessories,Apple,67.58,4.4,402,"Accessorie with Durable, Universal",True
+P0945,Apple Charger,Accessories,Apple,73.13,4.1,205,"Accessorie with Durable, Compact, Fast Charging",True
+P0946,Apple Stand,Accessories,Apple,129.81,4.3,353,"Accessorie with Fast Charging, Compact",False
+P0947,Apple Case,Accessories,Apple,74.59,3.9,440,"Accessorie with Fast Charging, Compact, Universal",True
+P0948,Belkin Stand,Accessories,Belkin,127.39,4.2,49,"Accessorie with Compact, Durable",True
+P0949,Logitech Charger,Accessories,Logitech,31.49,3.8,34,"Accessorie with Compact, Universal",True
+P0950,Apple Charger,Accessories,Apple,106.65,4.4,485,"Accessorie with Compact, Durable",True
+P0951,Logitech Cable,Accessories,Logitech,137.23,3.9,430,"Accessorie with Durable, Fast Charging",True
+P0952,Anker Case,Accessories,Anker,40.88,4.1,272,"Accessorie with Durable, Fast Charging",True
+P0953,Logitech Case,Accessories,Logitech,55.18,4.0,119,"Accessorie with Compact, Durable, Universal",True
+P0954,Logitech Stand,Accessories,Logitech,55.27,3.6,244,"Accessorie with Compact, Durable",True
+P0955,Anker Stand,Accessories,Anker,102.11,4.0,220,"Accessorie with Durable, Compact",True
+P0956,Samsung Adapter,Accessories,Samsung,79.94,4.2,317,"Accessorie with Universal, Durable",True
+P0957,Apple Case,Accessories,Apple,104.91,4.7,445,"Accessorie with Fast Charging, Universal, Compact",False
+P0958,Anker Cable,Accessories,Anker,56.91,4.0,129,"Accessorie with Fast Charging, Universal, Durable",True
+P0959,Samsung Cable,Accessories,Samsung,116.25,3.9,80,"Accessorie with Durable, Compact",True
+P0960,Apple Charger,Accessories,Apple,51.53,4.0,459,"Accessorie with Compact, Universal",True
+P0961,Belkin Charger,Accessories,Belkin,48.94,4.0,443,"Accessorie with Universal, Durable, Compact",True
+P0962,Logitech Case,Accessories,Logitech,43.91,3.9,174,"Accessorie with Compact, Universal",True
+P0963,Apple Charger,Accessories,Apple,98.17,4.1,82,"Accessorie with Durable, Universal",True
+P0964,Belkin Case,Accessories,Belkin,22.85,4.0,381,"Accessorie with Durable, Fast Charging",False
+P0965,Logitech Case,Accessories,Logitech,32.98,3.7,305,"Accessorie with Universal, Fast Charging",False
+P0966,Belkin Stand,Accessories,Belkin,48.06,4.1,235,"Accessorie with Compact, Durable, Fast Charging",False
+P0967,Samsung Cable,Accessories,Samsung,95.32,4.1,447,"Accessorie with Compact, Fast Charging",True
+P0968,Logitech Case,Accessories,Logitech,93.33,3.9,242,"Accessorie with Compact, Fast Charging, Universal",True
+P0969,Apple Case,Accessories,Apple,88.7,4.4,12,"Accessorie with Fast Charging, Durable, Universal",True
+P0970,Samsung Cable,Accessories,Samsung,112.25,4.0,167,"Accessorie with Universal, Fast Charging, Compact",True
+P0971,Apple Cable,Accessories,Apple,133.9,4.7,500,"Accessorie with Fast Charging, Compact",True
+P0972,Logitech Stand,Accessories,Logitech,81.35,4.1,386,"Accessorie with Compact, Fast Charging",True
+P0973,Belkin Charger,Accessories,Belkin,76.88,4.2,243,"Accessorie with Universal, Compact",True
+P0974,Logitech Case,Accessories,Logitech,44.64,3.9,339,"Accessorie with Durable, Compact",False
+P0975,Apple Adapter,Accessories,Apple,108.85,4.7,434,"Accessorie with Compact, Durable",False
+P0976,Logitech Cable,Accessories,Logitech,106.86,4.1,65,"Accessorie with Compact, Universal, Durable",True
+P0977,Belkin Cable,Accessories,Belkin,47.66,3.7,10,"Accessorie with Durable, Compact, Fast Charging",True
+P0978,Anker Stand,Accessories,Anker,118.32,4.1,105,"Accessorie with Fast Charging, Durable, Compact",True
+P0979,Belkin Cable,Accessories,Belkin,78.11,3.9,40,"Accessorie with Fast Charging, Durable",True
+P0980,Belkin Cable,Accessories,Belkin,46.31,4.1,160,"Accessorie with Fast Charging, Durable",True
+P0981,Apple Adapter,Accessories,Apple,27.46,3.9,354,"Accessorie with Compact, Fast Charging",True
+P0982,Anker Adapter,Accessories,Anker,18.55,4.1,277,"Accessorie with Durable, Compact",True
+P0983,Apple Stand,Accessories,Apple,94.42,4.7,182,"Accessorie with Compact, Fast Charging, Universal",True
+P0984,Logitech Cable,Accessories,Logitech,149.92,4.3,422,"Accessorie with Durable, Fast Charging, Universal",True
+P0985,Anker Case,Accessories,Anker,73.97,4.0,153,"Accessorie with Durable, Universal",True
+P0986,Logitech Cable,Accessories,Logitech,73.27,4.0,18,"Accessorie with Fast Charging, Durable, Compact",True
+P0987,Anker Cable,Accessories,Anker,145.74,4.2,388,"Accessorie with Compact, Fast Charging",True
+P0988,Logitech Charger,Accessories,Logitech,69.91,4.2,374,"Accessorie with Universal, Compact, Durable",True
+P0989,Samsung Adapter,Accessories,Samsung,132.67,4.3,417,"Accessorie with Fast Charging, Compact",True
+P0990,Logitech Cable,Accessories,Logitech,126.53,4.4,256,"Accessorie with Compact, Durable",True
+P0991,Belkin Charger,Accessories,Belkin,39.63,4.1,24,"Accessorie with Compact, Universal",True
+P0992,Logitech Stand,Accessories,Logitech,136.37,4.3,482,"Accessorie with Durable, Universal, Compact",False
+P0993,Anker Adapter,Accessories,Anker,121.38,4.0,476,"Accessorie with Universal, Fast Charging",False
+P0994,Samsung Case,Accessories,Samsung,145.27,4.1,67,"Accessorie with Durable, Fast Charging, Compact",True
+P0995,Logitech Charger,Accessories,Logitech,113.68,4.4,305,"Accessorie with Fast Charging, Compact, Universal",True
+P0996,Logitech Cable,Accessories,Logitech,18.66,3.9,276,"Accessorie with Universal, Fast Charging, Durable",True
+P0997,Anker Stand,Accessories,Anker,65.34,3.9,265,"Accessorie with Universal, Durable",False
+P0998,Belkin Charger,Accessories,Belkin,94.21,3.9,150,"Accessorie with Universal, Compact, Durable",False
+P0999,Belkin Charger,Accessories,Belkin,79.3,4.0,444,"Accessorie with Fast Charging, Universal, Durable",True
+P1000,Anker Cable,Accessories,Anker,139.24,4.3,21,"Accessorie with Universal, Compact, Durable",False
+P1001,Logitech Cable,Accessories,Logitech,69.14,3.9,154,"Accessorie with Durable, Universal, Fast Charging",True
+P1002,Samsung Adapter,Accessories,Samsung,65.13,3.7,345,"Accessorie with Universal, Fast Charging",True
+P1003,Samsung Case,Accessories,Samsung,29.26,4.0,110,"Accessorie with Fast Charging, Universal",True
+P1004,Logitech Case,Accessories,Logitech,111.63,4.1,484,"Accessorie with Compact, Universal, Durable",True
+P1005,Anker Charger,Accessories,Anker,59.78,3.9,135,"Accessorie with Compact, Durable, Fast Charging",True
+P1006,Anker Adapter,Accessories,Anker,43.72,3.9,417,"Accessorie with Compact, Universal",True
+P1007,Apple Cable,Accessories,Apple,131.09,4.5,52,"Accessorie with Durable, Compact, Universal",True
+P1008,Apple Charger,Accessories,Apple,99.8,4.6,416,"Accessorie with Universal, Compact, Durable",True
+P1009,Apple Stand,Accessories,Apple,77.79,4.3,42,"Accessorie with Durable, Fast Charging",True
+P1010,Apple Adapter,Accessories,Apple,123.8,4.1,395,"Accessorie with Durable, Universal, Compact",True
+P1011,Anker Charger,Accessories,Anker,35.29,4.0,75,"Accessorie with Universal, Durable, Compact",True
+P1012,Belkin Charger,Accessories,Belkin,22.29,3.8,162,"Accessorie with Durable, Universal",True
+P1013,Samsung Charger,Accessories,Samsung,34.02,4.2,494,"Accessorie with Universal, Durable",True
+P1014,Samsung Stand,Accessories,Samsung,72.29,3.9,349,"Accessorie with Fast Charging, Universal, Durable",True
+P1015,Belkin Case,Accessories,Belkin,15.14,3.7,193,"Accessorie with Fast Charging, Universal",True
+P1016,Belkin Stand,Accessories,Belkin,112.07,4.1,214,"Accessorie with Compact, Universal, Durable",False
+P1017,Anker Case,Accessories,Anker,142.26,4.2,385,"Accessorie with Durable, Universal",True
+P1018,Belkin Adapter,Accessories,Belkin,110.02,4.1,171,"Accessorie with Compact, Durable",False
+P1019,Apple Stand,Accessories,Apple,13.63,4.3,290,"Accessorie with Durable, Universal",False
+P1020,Anker Stand,Accessories,Anker,56.11,3.7,15,"Accessorie with Fast Charging, Compact",True
+P1021,Apple Charger,Accessories,Apple,147.13,4.2,430,"Accessorie with Universal, Compact",False
+P1022,Anker Stand,Accessories,Anker,84.05,4.2,172,"Accessorie with Durable, Compact, Universal",False
+P1023,Belkin Adapter,Accessories,Belkin,58.32,4.0,142,"Accessorie with Compact, Universal, Durable",True
+P1024,Samsung Cable,Accessories,Samsung,109.85,4.2,372,"Accessorie with Durable, Universal, Fast Charging",True
+P1025,Samsung Stand,Accessories,Samsung,68.55,3.9,276,"Accessorie with Universal, Fast Charging, Compact",True
+P1026,Logitech Cable,Accessories,Logitech,98.99,3.9,49,"Accessorie with Durable, Universal, Compact",True
+P1027,Anker Stand,Accessories,Anker,33.12,3.6,255,"Accessorie with Durable, Fast Charging, Compact",False
+P1028,Samsung Charger,Accessories,Samsung,105.92,4.2,476,"Accessorie with Durable, Universal, Compact",True
+P1029,Apple Adapter,Accessories,Apple,108.36,4.5,355,"Accessorie with Compact, Durable",True
+P1030,Belkin Stand,Accessories,Belkin,20.52,4.1,204,"Accessorie with Compact, Fast Charging",True
+P1031,Logitech Case,Accessories,Logitech,145.76,4.0,257,"Accessorie with Universal, Fast Charging",True
+P1032,Logitech Cable,Accessories,Logitech,39.83,4.0,273,"Accessorie with Universal, Compact",True
+P1033,Apple Stand,Accessories,Apple,134.95,4.6,162,"Accessorie with Compact, Fast Charging",True
+P1034,Anker Cable,Accessories,Anker,10.72,4.1,261,"Accessorie with Durable, Compact, Fast Charging",True
+P1035,Anker Charger,Accessories,Anker,84.07,4.3,125,"Accessorie with Durable, Compact, Fast Charging",False
+P1036,Apple Adapter,Accessories,Apple,62.4,4.1,92,"Accessorie with Durable, Fast Charging, Universal",True
+P1037,Logitech Case,Accessories,Logitech,114.59,3.8,30,"Accessorie with Fast Charging, Compact",True
+P1038,Apple Case,Accessories,Apple,68.95,4.1,146,"Accessorie with Compact, Universal",True
+P1039,Apple Case,Accessories,Apple,78.47,4.2,77,"Accessorie with Compact, Universal, Fast Charging",True
+P1040,Anker Adapter,Accessories,Anker,120.98,3.9,357,"Accessorie with Fast Charging, Durable",True
+P1041,Apple Cable,Accessories,Apple,146.7,4.5,399,"Accessorie with Universal, Fast Charging, Durable",False
+P1042,Belkin Case,Accessories,Belkin,96.47,4.2,351,"Accessorie with Durable, Fast Charging, Compact",False
