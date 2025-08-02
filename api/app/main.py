@@ -15,6 +15,28 @@ from datetime import datetime
 import time
 import os
 import json
+from app.services.ab_testing import (
+    ABTestManager, ExperimentConfig, ModelType, 
+    create_default_experiment
+)
+import uuid
+
+def convert_numpy_types(obj):
+    """Convert numpy types to Python native types for JSON serialization"""
+    if isinstance(obj, dict):
+        return {key: convert_numpy_types(value) for key, value in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_numpy_types(item) for item in obj]
+    elif isinstance(obj, (np.integer, np.floating)):
+        return obj.item()
+    elif isinstance(obj, np.bool_):
+        return bool(obj)
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif pd.isna(obj):
+        return None
+    else:
+        return obj
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -33,6 +55,9 @@ class RecommendationResponse(BaseModel):
     model_used: str
     response_time_ms: float
     timestamp: str
+    experiment_id: Optional[str] = None
+    request_id: Optional[str] = None
+    assigned_model: Optional[str] = None
 
 class HealthResponse(BaseModel):
     status: str
@@ -266,6 +291,25 @@ class RecommendationService:
             logger.error(f"❌ Hybrid recommendation error: {e}")
             return []
 
+class ExperimentRequest(BaseModel):
+    name: str = Field(..., description="Experiment name")
+    cf_traffic: float = Field(0.3, ge=0, le=1, description="CF model traffic percentage")
+    cb_traffic: float = Field(0.3, ge=0, le=1, description="CB model traffic percentage") 
+    hybrid_traffic: float = Field(0.4, ge=0, le=1, description="Hybrid model traffic percentage")
+    duration_days: int = Field(7, ge=1, le=30, description="Experiment duration in days")
+
+class ABTestRecommendationRequest(BaseModel):
+    user_id: str = Field(..., description="User ID for A/B test")
+    experiment_id: str = Field(..., description="Active experiment ID")
+    num_recommendations: int = Field(default=5, ge=1, le=20)
+
+class UserActionRequest(BaseModel):
+    experiment_id: str = Field(..., description="Experiment ID")
+    request_id: str = Field(..., description="Original recommendation request ID")
+    action: str = Field(..., description="User action: 'click', 'purchase', 'ignore'")
+    clicked_items: List[str] = Field(default=[], description="List of clicked product IDs")
+    conversion_value: float = Field(default=0.0, ge=0, description="Purchase value if applicable")
+
 # Initialize FastAPI app
 app = FastAPI(
     title="E-commerce Recommendation API",
@@ -286,6 +330,8 @@ app.add_middleware(
 
 # Initialize recommendation service
 recommendation_service = RecommendationService()
+
+ab_test_manager = ABTestManager()
 
 @app.on_event("startup")
 async def startup_event():
@@ -493,6 +539,221 @@ async def get_similar_products(
     except Exception as e:
         logger.error(f"❌ Similar products error: {e}")
         raise HTTPException(status_code=500, detail=f"Similar products error: {str(e)}")
+
+@app.post("/experiments/create")
+async def create_ab_experiment(request: ExperimentRequest):
+    """Create new A/B test experiment"""
+    try:
+        # Validate traffic allocation sums to 1.0
+        total_traffic = request.cf_traffic + request.cb_traffic + request.hybrid_traffic
+        if abs(total_traffic - 1.0) > 0.01:
+            raise HTTPException(
+                status_code=400, 
+                detail=f"Traffic allocation must sum to 1.0, got {total_traffic}"
+            )
+        
+        # Create experiment configuration
+        config = ExperimentConfig(
+            name=request.name,
+            traffic_allocation={
+                ModelType.COLLABORATIVE: request.cf_traffic,
+                ModelType.CONTENT_BASED: request.cb_traffic,
+                ModelType.HYBRID: request.hybrid_traffic
+            },
+            start_date=datetime.utcnow(),
+            end_date=datetime.utcnow() + timedelta(days=request.duration_days),
+            success_metrics=["click_through_rate", "conversion_rate", "response_time"],
+            min_sample_size=100,  # Lower for demo purposes
+            confidence_level=0.95
+        )
+        
+        # Start experiment
+        experiment_id = ab_test_manager.create_experiment(config)
+        
+        return {
+            "experiment_id": experiment_id,
+            "name": request.name,
+            "traffic_allocation": {
+                "collaborative": request.cf_traffic,
+                "content_based": request.cb_traffic,
+                "hybrid": request.hybrid_traffic
+            },
+            "duration_days": request.duration_days,
+            "status": "active"
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Experiment creation error: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to create experiment: {str(e)}")
+
+@app.get("/experiments")
+async def list_experiments():
+    """List all active A/B test experiments"""
+    try:
+        experiments = ab_test_manager.list_experiments()
+        return {
+            "active_experiments": experiments,
+            "total_count": len(experiments)
+        }
+    except Exception as e:
+        logger.error(f"❌ Error listing experiments: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/recommendations/ab-test", response_model=RecommendationResponse)
+async def get_ab_test_recommendations(request: ABTestRecommendationRequest):
+    """Get recommendations using A/B testing framework"""
+    start_time = time.time()
+    request_id = str(uuid.uuid4())
+    
+    try:
+        # Route user to appropriate model using A/B testing
+        assigned_model = ab_test_manager.route_and_track(
+            request.experiment_id,
+            request.user_id,
+            request_id
+        )
+        
+        # Get recommendations from assigned model
+        if assigned_model == ModelType.COLLABORATIVE:
+            recommendations = recommendation_service.get_cf_recommendations(
+                request.user_id, request.num_recommendations
+            )
+        elif assigned_model == ModelType.CONTENT_BASED:
+            recommendations = recommendation_service.get_cb_recommendations(
+                request.user_id, request.num_recommendations
+            )
+        else:  # HYBRID
+            recommendations = recommendation_service.get_hybrid_recommendations(
+                request.user_id, request.num_recommendations
+            )
+        
+        response_time = (time.time() - start_time) * 1000
+        
+        # Log the recommendation event for experiment tracking
+        ab_test_manager.log_recommendation(
+            request.experiment_id,
+            request.user_id,
+            request_id,
+            assigned_model,
+            response_time,
+            recommendations
+        )
+        
+        return RecommendationResponse(
+            user_id=request.user_id,
+            recommendations=recommendations,
+            model_used=f"ab_test_{assigned_model.value}",
+            response_time_ms=round(response_time, 2),
+            timestamp=datetime.utcnow().isoformat(),
+            # Add experiment tracking metadata
+            **{
+                "experiment_id": request.experiment_id,
+                "request_id": request_id,
+                "assigned_model": assigned_model.value
+            }
+        )
+        
+    except Exception as e:
+        logger.error(f"❌ A/B test recommendation error: {e}")
+        raise HTTPException(status_code=500, detail=f"A/B test error: {str(e)}")
+
+@app.post("/experiments/user-action")
+async def log_user_action(request: UserActionRequest):
+    """Log user action (click, purchase) for A/B test tracking"""
+    try:
+        ab_test_manager.log_user_action(
+            request.experiment_id,
+            request.request_id,
+            request.action,
+            request.clicked_items,
+            request.conversion_value
+        )
+        
+        return {
+            "status": "success",
+            "message": f"Logged {request.action} for request {request.request_id}",
+            "experiment_id": request.experiment_id
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ User action logging error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/experiments/{experiment_id}/results")
+async def get_experiment_results(experiment_id: str):
+    """Get comprehensive A/B test results with statistical analysis"""
+    try:
+        results = ab_test_manager.get_experiment_results(experiment_id)
+        
+        if "error" in results:
+            raise HTTPException(status_code=404, detail=results["error"])
+        
+        # Convert numpy types to JSON-serializable types
+        clean_results = convert_numpy_types(results)
+        
+        return clean_results
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"❌ Experiment results error: {e}")
+        raise HTTPException(status_code=500, detail=f"Results error: {str(e)}")
+
+@app.post("/experiments/demo-setup")
+async def setup_demo_experiment():
+    """Setup a demo A/B test experiment for portfolio demonstration"""
+    try:
+        # Create default experiment
+        config = create_default_experiment()
+        config.name = "portfolio_demo_experiment"
+        
+        experiment_id = ab_test_manager.create_experiment(config)
+        
+        # Generate some demo data for immediate results
+        demo_users = ["U06253", "U04685", "U01732", "U08934", "U02156"]
+        
+        for i, user_id in enumerate(demo_users * 4):  # 20 requests total
+            request_id = str(uuid.uuid4())
+            
+            # Route user to model
+            assigned_model = ab_test_manager.route_and_track(experiment_id, user_id, request_id)
+            
+            # Simulate getting recommendations (use actual response times)
+            start_time = time.time()
+            if assigned_model == ModelType.COLLABORATIVE:
+                recs = recommendation_service.get_cf_recommendations(user_id, 5)
+            elif assigned_model == ModelType.CONTENT_BASED:
+                recs = recommendation_service.get_cb_recommendations(user_id, 5)
+            else:
+                recs = recommendation_service.get_hybrid_recommendations(user_id, 5)
+            
+            response_time = (time.time() - start_time) * 1000
+            
+            # Log recommendation
+            ab_test_manager.log_recommendation(
+                experiment_id, user_id, request_id, assigned_model, response_time, recs
+            )
+            
+            # Simulate user actions (some clicks and purchases)
+            if i % 3 == 0:  # 33% click rate
+                ab_test_manager.log_user_action(experiment_id, request_id, "click", [recs[0]["product_id"]])
+                if i % 6 == 0:  # 16% purchase rate
+                    ab_test_manager.log_user_action(
+                        experiment_id, request_id, "purchase", 
+                        [recs[0]["product_id"]], float(recs[0]["price"])  # Ensure price is float
+                    )
+        
+        return {
+            "experiment_id": experiment_id,
+            "message": "Demo experiment created with sample data",
+            "demo_users": demo_users,
+            "total_requests": len(demo_users) * 4,
+            "view_results": f"/experiments/{experiment_id}/results"
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Demo setup error: {e}")
+        raise HTTPException(status_code=500, detail=f"Demo setup error: {str(e)}")
 
 if __name__ == "__main__":
     import uvicorn
