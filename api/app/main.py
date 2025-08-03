@@ -19,6 +19,10 @@ from app.services.ab_testing import (
     ABTestManager, ExperimentConfig, ModelType, 
     create_default_experiment
 )
+from app.services.mlops_monitoring import (
+    performance_tracker, retraining_manager, cost_manager,
+    AlertSeverity, MetricType
+)
 import uuid
 
 def convert_numpy_types(obj):
@@ -309,6 +313,28 @@ class UserActionRequest(BaseModel):
     action: str = Field(..., description="User action: 'click', 'purchase', 'ignore'")
     clicked_items: List[str] = Field(default=[], description="List of clicked product IDs")
     conversion_value: float = Field(default=0.0, ge=0, description="Purchase value if applicable")
+
+class MonitoringDashboardResponse(BaseModel):
+    timestamp: str
+    global_metrics: Dict[str, Any]
+    model_metrics: Dict[str, Any]
+    recent_alerts: List[Dict[str, Any]]
+    total_requests: int
+    monitoring_window_minutes: int
+
+class RetrainingJobResponse(BaseModel):
+    job_id: str
+    model_name: str
+    status: str
+    progress: int
+    stage: str
+    start_time: str
+
+class CostAnalysisResponse(BaseModel):
+    current_costs: Dict[str, Any]
+    efficiency_metrics: Dict[str, Any]
+    optimization_recommendations: List[str]
+    timestamp: str
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -638,6 +664,14 @@ async def get_ab_test_recommendations(request: ABTestRecommendationRequest):
             response_time,
             recommendations
         )
+
+        performance_tracker.log_request(
+            model_name=assigned_model.value,
+            response_time_ms=response_time,
+            success=True,
+            user_action=None,  # Will be updated when user actions are logged
+            conversion_value=0.0
+        )
         
         return RecommendationResponse(
             user_id=request.user_id,
@@ -668,6 +702,17 @@ async def log_user_action(request: UserActionRequest):
             request.clicked_items,
             request.conversion_value
         )
+
+        if request.action == 'purchase':
+        # Find the original request and update it
+        # Simplified approach - production would have better tracking
+            performance_tracker.log_request(
+                model_name='hybrid',  # You'd get this from the original request
+                response_time_ms=0,   # Already logged
+                success=True,
+                user_action=request.action,
+                conversion_value=request.conversion_value
+            )
         
         return {
             "status": "success",
@@ -754,6 +799,214 @@ async def setup_demo_experiment():
     except Exception as e:
         logger.error(f"❌ Demo setup error: {e}")
         raise HTTPException(status_code=500, detail=f"Demo setup error: {str(e)}")
+
+@app.get("/monitoring/dashboard", response_model=MonitoringDashboardResponse)
+async def get_monitoring_dashboard():
+    """Get real-time monitoring dashboard with performance metrics"""
+    try:
+        metrics = performance_tracker.get_current_metrics()
+        
+        if "error" in metrics:
+            raise HTTPException(status_code=503, detail="Monitoring data not available")
+        
+        return MonitoringDashboardResponse(**metrics)
+        
+    except Exception as e:
+        logger.error(f"❌ Monitoring dashboard error: {e}")
+        raise HTTPException(status_code=500, detail=f"Dashboard error: {str(e)}")
+
+@app.get("/monitoring/alerts")
+async def get_recent_alerts():
+    """Get recent performance alerts and warnings"""
+    try:
+        recent_alerts = performance_tracker.alerts[-20:]  # Last 20 alerts
+        
+        alerts_data = []
+        for alert in recent_alerts:
+            alerts_data.append({
+                'timestamp': alert.timestamp.isoformat(),
+                'metric_type': alert.metric_type.value,
+                'severity': alert.severity.value,
+                'current_value': alert.current_value,
+                'threshold_value': alert.threshold_value,
+                'message': alert.message,
+                'model_name': alert.model_name
+            })
+        
+        return {
+            'alerts': alerts_data,
+            'total_alerts': len(performance_tracker.alerts),
+            'critical_count': len([a for a in recent_alerts if a.severity == AlertSeverity.CRITICAL]),
+            'warning_count': len([a for a in recent_alerts if a.severity == AlertSeverity.WARNING])
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Alerts retrieval error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/monitoring/models/{model_name}/performance")
+async def get_model_performance(model_name: str):
+    """Get detailed performance metrics for a specific model"""
+    try:
+        if model_name not in ['cf', 'cb', 'hybrid']:
+            raise HTTPException(status_code=404, detail=f"Model {model_name} not found")
+        
+        metrics = performance_tracker.get_current_metrics()
+        
+        if 'model_metrics' not in metrics or model_name not in metrics['model_metrics']:
+            raise HTTPException(status_code=404, detail=f"No metrics available for model {model_name}")
+        
+        model_metrics = metrics['model_metrics'][model_name]
+        
+        # Add model-specific insights
+        performance_grade = "A"
+        if model_metrics['avg_response_time_ms'] > 100:
+            performance_grade = "C"
+        elif model_metrics['avg_response_time_ms'] > 50:
+            performance_grade = "B"
+        
+        return {
+            'model_name': model_name,
+            'performance_metrics': model_metrics,
+            'performance_grade': performance_grade,
+            'recommendations': [
+                f"Average response time: {model_metrics['avg_response_time_ms']:.1f}ms",
+                f"Accuracy score: {model_metrics.get('avg_accuracy_score', 0):.1%}",
+                f"Total requests processed: {model_metrics['total_requests']}"
+            ]
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"❌ Model performance error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/mlops/retraining/check")
+async def check_retraining_needs():
+    """Check which models need retraining based on performance degradation"""
+    try:
+        models_needing_retraining = retraining_manager.check_retraining_triggers()
+        
+        return {
+            'models_flagged_for_retraining': models_needing_retraining,
+            'total_models_flagged': len(models_needing_retraining),
+            'last_check': datetime.utcnow().isoformat(),
+            'retraining_thresholds': retraining_manager.retraining_thresholds
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Retraining check error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/mlops/retraining/trigger/{model_name}")
+async def trigger_model_retraining(model_name: str):
+    """Trigger automated retraining for a specific model"""
+    try:
+        if model_name not in ['cf', 'cb', 'hybrid']:
+            raise HTTPException(status_code=404, detail=f"Model {model_name} not found")
+        
+        retraining_job = retraining_manager.trigger_retraining(model_name)
+        
+        return RetrainingJobResponse(**retraining_job)
+        
+    except Exception as e:
+        logger.error(f"❌ Retraining trigger error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/mlops/retraining/status")
+async def get_retraining_status():
+    """Get status of all retraining jobs"""
+    try:
+        jobs = retraining_manager.get_retraining_status()
+        
+        return {
+            'retraining_jobs': jobs,
+            'active_jobs': len([job for job in jobs if job['status'] == 'initiated']),
+            'completed_jobs': len([job for job in jobs if job['status'] == 'completed'])
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Retraining status error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/mlops/cost-analysis", response_model=CostAnalysisResponse)
+async def get_cost_analysis():
+    """Get comprehensive cost analysis and optimization recommendations"""
+    try:
+        cost_analysis = cost_manager.calculate_current_costs()
+        
+        if "error" in cost_analysis:
+            raise HTTPException(status_code=503, detail=cost_analysis["error"])
+        
+        return CostAnalysisResponse(**cost_analysis)
+        
+    except Exception as e:
+        logger.error(f"❌ Cost analysis error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/mlops/health-summary")
+async def get_mlops_health_summary():
+    """Get comprehensive MLOps system health summary"""
+    try:
+        # Get metrics from all systems
+        monitoring_data = performance_tracker.get_current_metrics()
+        cost_data = cost_manager.calculate_current_costs()
+        retraining_data = retraining_manager.check_retraining_triggers()
+        
+        # Calculate overall system health
+        health_score = 100
+        health_issues = []
+        
+        if monitoring_data.get('global_metrics', {}).get('avg_response_time_ms', 0) > 100:
+            health_score -= 20
+            health_issues.append("High response times detected")
+        
+        if monitoring_data.get('global_metrics', {}).get('error_rate', 0) > 0.05:
+            health_score -= 30
+            health_issues.append("Elevated error rate")
+        
+        if len(retraining_data) > 0:
+            health_score -= 15
+            health_issues.append(f"{len(retraining_data)} models need retraining")
+        
+        if cost_data.get('efficiency_metrics', {}).get('roi_ratio', 0) < 2.0:
+            health_score -= 10
+            health_issues.append("Low ROI efficiency")
+        
+        # Determine health status
+        if health_score >= 90:
+            health_status = "excellent"
+        elif health_score >= 75:
+            health_status = "good"
+        elif health_score >= 60:
+            health_status = "fair"
+        else:
+            health_status = "poor"
+        
+        return {
+            'overall_health_score': max(0, health_score),
+            'health_status': health_status,
+            'health_issues': health_issues,
+            'system_summary': {
+                'total_requests': monitoring_data.get('total_requests', 0),
+                'avg_response_time': monitoring_data.get('global_metrics', {}).get('avg_response_time_ms', 0),
+                'conversion_rate': monitoring_data.get('global_metrics', {}).get('conversion_rate', 0),
+                'daily_cost_estimate': cost_data.get('current_costs', {}).get('estimated_daily_cost', 0),
+                'roi_ratio': cost_data.get('efficiency_metrics', {}).get('roi_ratio', 0)
+            },
+            'recommendations': [
+                "Monitor response times closely",
+                "Optimize conversion rates for better ROI",
+                "Consider model retraining schedule",
+                "Review cost optimization opportunities"
+            ],
+            'timestamp': datetime.utcnow().isoformat()
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Health summary error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn
